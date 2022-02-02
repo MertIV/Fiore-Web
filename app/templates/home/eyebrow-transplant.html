@@ -1,0 +1,80 @@
+{% extends "layouts/base-sub.html" %}
+
+{% block title %}  {{_('Eyebrow Transplant | Hair Transplant Turkey Istanbul')}} {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <main>
+        
+        {% include 'includes/preloader.html' %}
+
+        <!-- Hero -->
+        <section class="section-header bg-gray text-white">
+            <div class="container">
+               <div class="row justify-content-between align-items-center">
+                  <div class="col-12 col-md-7 col-lg-6 text-center text-md-left">
+                        <h1 class="display-2 mb-4">{{_('Eyebrow Transplant')}}</h1>
+                        <p class="lead mb-4 text-muted">{{_('Different operations are performed depending on the needs of the patients and the type of hair.')}}</p>
+                    </div>
+                  <div class="col-12 col-md-5 d-none d-md-block text-center"><img src="/static/assets/img/dropdown/eyebrow_white.svg" alt=""></div>
+               </div>
+            </div>
+            <figure class="position-absolute bottom-0 left-0 w-100 d-none d-md-block mb-n2">
+               <svg class="fill-white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 43.4" style="enable-background:new 0 0 1920 43.4;" xml:space="preserve">
+                  <path d="M0,23.3c0,0,405.1-43.5,697.6,0c316.5,1.5,108.9-2.6,480.4-14.1c0,0,139-12.2,458.7,14.3 c0,0,67.8,19.2,283.3-22.7v35.1H0V23.3z"></path>
+               </svg>
+            </figure>
+        </section>
+        <!-- Section -->
+        <section class="section section-lg" style="padding-top: 3rem;" >
+            <div class="container">
+                <div class="row justify-content-between align-items-center mb-5 mb-lg-7">
+                  <div class="col-12 col-lg-5 mb-5 mb-lg-0 order-lg-2" >
+                    <h2 class="h1">{{_('FUE')}}</h2>
+                    <p class="lead">{{_('The FUE method is known as the most advanced hair transplant technique that guarantees perfectly natural results. This hair transplant technique consists in extracting the follicular units from the donor area and then reimplanting them in the passages opened by incision beforehand in the bald areas of the head.')}}</p>
+                  </div>
+                  <div class="col-12 col-lg-6 order-lg-1">
+                    <img class="organic-radius img-fluid" src="/static/assets/img/sections/about-us-1.jpg" alt="Office Desk">
+                  </div>
+                </div>
+                <div class="row justify-content-between align-items-center mb-5 mb-lg-7">
+                  <div class="col-lg-5 mb-5 mb-lg-0" >
+                    <h2 class="h1 d-flex align-items-center">{{_('Sapphire FUE')}}</h2>
+                    <p class="lead">{{_('In hair transplantation, genuine sapphire blades are used instead of the thin metal blade used in the classic FUE method when incising the channels in the receiving area.')}}</p>
+                    <p class="lead">{{_('This innovation of the FUE method minimizes scab formation and helps speed up the healing process by opening up smaller pathways where the grafts will be implanted.')}}</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <img class="organic-radius img-fluid" src="/static/assets/img/sections/about-us-1.jpg" alt="Office Desk">
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+            <!-- Section -->
+    <section class="section py-0">
+        <div class="container z-2">
+        <div class="row position-relative justify-content-center align-items-cente">
+            <div class="col-12">
+                
+                <div class="card border-light px-4 py-1">
+                    <div class="card-body text-center text-md-left">
+                        <div class="row align-items-center">
+                            {% include 'includes/_contact.html' %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    {% include 'includes/footer-about.html' %}
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

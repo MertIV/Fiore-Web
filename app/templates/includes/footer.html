@@ -1,0 +1,59 @@
+    <footer class="footer pt-5 pb-3 bg-gray text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-lg-4 text-center text-md-left">
+                    <img class="navbar-brand-dark mb-4" height="50" src="/static/assets/img/brand/suki-ds.svg">
+                        <div id='contact-footer' class="row align-items-center">
+                            <div class="col-lg-8 mb-2" style="min-width: fit-content;">
+                                <a class="h3 fw-bolder" href="mailto:fioreclinique@gmail.com">fioreclinique@gmail.com</a>
+                            </div>
+                            <div class="col-12 justify-content-between mb-2" >
+                                <a class="h2 fw-bolder mb-0" target="_blank" href="tel:+90 539 842 05 70">+90 539 842 05 70</a>
+                            </div>
+                            <div class="col-12 justify-content-evenly mb-4">
+                                <a id="footer-wp" href="https://web.whatsapp.com/send?phone=905398420570" target="_blank" class="text-md-right" type="button" aria-label="whatsapp button"
+                                title="whatsapp button">
+                                <span aria-hidden="true" style="color:#ffffff; margin-right: 0.4rem;" class="fab fa-whatsapp fa-3x"></span>
+                                </a>
+                                <a href="https://web.whatsapp.com/send?phone=905398420570" target="_blank" class="text-md-right" type="button" aria-label="whatsapp button"
+                                title="whatsapp button" >
+                                <span aria-hidden="true" style="line-height: 1em !important; color:#ffffff; margin-right: 0.4rem;" class="fab fa-instagram fa-3x"></span>
+                                </a>
+                                <a href="https://web.whatsapp.com/send?phone=905398420570" target="_blank"  class="text-md-right" type="button" aria-label="whatsapp button"
+                                title="whatsapp button">
+                                <span aria-hidden="true" style="color:#ffffff; margin-right: 0.4rem; margin-bottom: 1rem;" class="fab fa-facebook fa-3x"></span>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-8 col-md-3 mb-5 mb-lg-0 d-none d-lg-block">
+                    <span class="h5">{{_('Hair Transplant')}}</span>
+                    <ul class="footer-links mt-2">
+                        <li><a href="{{url_for('bp.male_transplant')}}">{{_('Male Hair Transplant')}}</a></li>
+                        <li><a href="{{url_for('bp.female_transplant')}}">{{_('Female Hair Transplant')}}</a></li>
+                        <li><a href="{{url_for('bp.facial_transplant')}}">{{_('Facial Hair Transplant')}}</a></li>
+                        <li><a href="{{url_for('bp.eyebrow_transplant')}}">{{_('Eyebrow Transplant')}}</a></li>
+                        <li><a href="{{url_for('bp.transplant_methods')}}">{{_('Transplant Methods')}}</a></li>
+                    </ul>
+                </div>
+                <div class="col-5 col-md-3 col-lg-2 mb-5 mb-lg-0">
+                    <span class="h5">{{_('About')}}</span>
+                    <ul class="footer-links mt-2">
+                        <li><a href="{{url_for('bp.our_partners')}}">{{_('Our Partners')}}</a></li>
+                        <li><a href="{{url_for('bp.about')}}">{{_('About Us')}}</a></li>
+                        <li><a href="{{url_for('bp.contact')}}">{{_('Contact Us')}}</a></li>
+                    </ul>
+                </div>
+                <div class="col-5 col-md-2 mb-5 mb-lg-0">
+                    <span class="h5">{{_('Our Services')}}</span>
+                    <ul class="footer-links mt-2">
+                        <li><a href="{{url_for('bp.experience')}}">{{_('Experience')}}</a></li>
+                        <li><a href="{{url_for('bp.packages')}}">{{_('Packages')}}</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 col-md-1 mb-5 mb-lg-0">
+                    <span class="h5"><a href="{{url_for('bp.faq')}}">{{_('FAQ')}}</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>

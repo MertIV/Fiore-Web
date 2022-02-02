@@ -1,0 +1,72 @@
+<link type="text/css" href="/static/assets/css/_experiencecard.css?newcache08" rel="stylesheet">
+
+<ul class="ca-menu">
+    <li class="col-6">
+      <a id="contact_link" href="#contact-footer">
+        <span class="ca-icon"><span class="fas fa-phone"></span></span>
+        <div class="ca-content">
+          <h2 class="ca-main">{{_('Contact Us')}}</h2>
+        </div>
+      </a>
+    </li>
+    <li class="col-6">
+      <a id="online_link" href="{{url_for('bp.experience')}}#{{_('consultation')}}">
+        <span class="ca-icon">
+            <span class="fas fa-photo-video"></span>
+        </span>
+        <div class="ca-content">
+          <h2 class="ca-main">{{_('Online Free Consultation')}}</h2>
+        </div>
+      </a>
+    </li>
+    <li class="col-6">
+      <a id="appointment_link" href="{{url_for('bp.experience')}}#{{_('appointment')}}">
+        <span class="ca-icon" id="heart">
+            <span class="far fa-calendar-check "></span>
+        </span>
+        <div class="ca-content">
+          <h2 class="ca-main">{{_('Making Appointments')}}</h2>
+        </div>
+      </a>
+    </li>
+    <li class="col-6">
+      <a id="travel_link" href="{{url_for('bp.experience')}}#{{_('travel')}}">
+        <span class="ca-icon">
+            <span class="fas fa-plane-arrival"></span>
+        </span>
+        <div class="ca-content">
+          <h2 class="ca-main">{{_('Transport and Accommodation')}}</h2>
+        </div>
+      </a>
+    </li>
+    <li class="col-6">
+      <a id="arrival_link" href="{{url_for('bp.experience')}}#{{_('arrival')}}">
+        <span class="ca-icon">
+            <span class="fas fa-hospital-user"></span>
+        </span>
+        <div class="ca-content">
+          <h2 class="ca-main">{{_('Arrival at the Clinic')}}</h2>
+        </div>
+      </a>
+    </li>
+    <li class="col-6">
+        <a id="treatment_link" href="{{url_for('bp.experience')}}#{{_('treatment')}}">
+          <span class="ca-icon">
+            <span class="fas fa-briefcase-medical"></span>
+            </span>
+          <div class="ca-content">
+            <h2 class="ca-main">{{_('Post-operative Treatments')}}</h2>
+          </div>
+        </a>
+      </li>
+      <li class="col-6 d-none d-xl-block">
+        <a href="{{url_for('bp.experience')}}#{{_('return')}}">
+          <span class="ca-icon">
+            <span class="fas fa-plane-departure"></span>
+            </span>
+          <div class="ca-content">
+            <h2 class="ca-main">{{_('Return')}}</h2>
+          </div>
+        </a>
+      </li>
+  </ul>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32.512863mm"
+   height="23.169088mm"
+   viewBox="0 0 32.512863 23.169089"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="beard_white.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.9647587"
+     inkscape:cx="107.09135"
+     inkscape:cy="-23.442043"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g45" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Katman 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-85.053407,-98.669226)">
+    <g
+       id="g45"
+       transform="matrix(0.26458333,0,0,0.26458333,-24.513976,14.764923)">
+      <path
+         class="st0"
+         d="m 439.40295,355.40863 c -0.77,1.82 -1.36,3.71 -1.79,5.66 -15.44,-18.83 -13.59,-14.1 -15.29,-38.39 l -8.21,-5.56 c 0.28,32.54 3.89,81.46 47.72,87.32 3.66,0.49 8.32,0.25 13.92,-0.68 28.17,7.05 57.66,-28.25 59.99,-53.17 1.11,-11.11 1.58,-22.23 1.01,-33.34 l -7.96,5.68 c -1.46,23.72 -0.12,19.13 -14.78,37.89 -4.44,-17.59 -34.45,-23.75 -38.09,-17.15 -5.84,-7.59 -32.62,2.54 -36.52,11.74 z m 11.56,11.62 c 0.58,-3.92 2.29,-6.46 3.95,-8.89 3.21,-4.69 5.24,-4.38 9.92,-3.65 8.36,1.31 16.67,1.04 24.91,-0.75 5.38,-0.08 10.9,9.34 10.35,13.71 -0.52,4.12 -8.42,9.05 -12.64,9.02 -3.77,-0.02 -7.74,-2.05 -11.91,-6.15 -8.44,8.67 -17.09,7.72 -24.58,-3.29 z"
+         id="path229"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+  <style
+     type="text/css"
+     id="style227">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style>
+</svg>

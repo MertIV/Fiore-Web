@@ -1,0 +1,309 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-01-10 05:50+0300\n"
+"PO-Revision-Date: 2022-01-11 15:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: tr_TR\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Parser: loco_parse_po"
+
+#: app/forms.py:8
+msgid "First Name"
+msgstr "Prénom"
+
+#: app/forms.py:9
+msgid "Last Name"
+msgstr "Nom"
+
+#: app/blueprints/templates/includes/_contact.html:28
+#:  app/forms.py:10 app/templates/includes/_contact.html:28
+msgid "Phone Number or E-mail"
+msgstr "Numéro de téléphone ou e-mail"
+
+#: app/forms.py:11
+msgid "Message"
+msgstr "Message"
+
+#: app/blueprints/templates/home/index.html:9
+msgid "Fiore Health&Beauty"
+msgstr "Fiore Santé &Beauté"
+
+#: app/blueprints/templates/home/index.html:85 
+#: app/blueprints/templates/home/index.html:86
+msgid "Health & Beauty"
+msgstr "Santé & Beauté"
+
+#: app/blueprints/templates/home/index.html:89
+msgid "Do Something For You , You Deserve It"
+msgstr "Faites quelque chose pour vous, vous le méritez"
+
+#: app/blueprints/templates/home/index.html:126 
+#: app/blueprints/templates/includes/navigation.html:123
+msgid "About Us"
+msgstr "À propos de nous"
+
+#: app/blueprints/templates/home/index.html:128
+msgid ""
+"We are the best in our field and all thanks to the incredible relationships "
+"we have forged with our clients. Unlike our competitors, we invest in "
+"developing a personal relationship with each of our clients by providing "
+"them with quality service and by remaining available 24 hours a day, 7 days "
+"a week. If you want to know more do not hesitate to contact us. We are "
+"impatient to meet you!"
+msgstr ""
+"Nous sommes les meilleurs dans notre domaine et tout cela, grâce aux "
+"relations incroyables que nous avons nouées avec nos clients. Contrairement "
+"à nos concurrents, nous investissons dans le développement d'une relation "
+"personnelle avec chacun de nos clients en leur fournissant un service de "
+"qualité et en restant disponibles 24 heures sur 24, 7 jours sur 7. Si vous "
+"voulez en savoir plus, n'hésitez pas à nous contacter. Nous sommes "
+"impatients de vous rencontrer !"
+
+#: app/blueprints/templates/home/index.html:132 
+#: app/blueprints/templates/includes/_cardlandscape.html:49
+#:  
+#: app/blueprints/templates/includes/_cardlandscape.html:73
+#:  
+#: app/blueprints/templates/includes/_cardlandscape.html:98
+#:  
+#: app/blueprints/templates/includes/_cardlandscape.html:120
+msgid "Learn More"
+msgstr "En savoir plus"
+
+#: app/blueprints/templates/home/index.html:145
+msgid "Our Features"
+msgstr "Nos Fonctionnalités"
+
+#: app/blueprints/templates/home/index.html:150
+msgid "Confidence"
+msgstr "Confiance"
+
+#: app/blueprints/templates/home/index.html:157
+msgid "Quality Service"
+msgstr "Service de qualité"
+
+#: app/blueprints/templates/home/index.html:164
+msgid "7/24 Support"
+msgstr "Assistance 24h/24 et 7j/7"
+
+#: app/blueprints/templates/home/index.html:171
+msgid "Good Value for Money"
+msgstr "Tarifs compétitifs"
+
+#: app/blueprints/templates/includes/_cardlandscape.html:36
+#:  
+#: app/blueprints/templates/includes/navigation.html:116
+msgid "Our Partners"
+msgstr "Nos partenaires"
+
+#: app/blueprints/templates/includes/_cardlandscape.html:60
+#:  
+#: app/blueprints/templates/includes/_cardlandscape.html:84
+#:  
+#: app/blueprints/templates/includes/_timeline.html:6
+msgid "Experience"
+msgstr "Expérience"
+
+#: app/blueprints/templates/includes/_cardlandscape.html:109
+msgid "Contact"
+msgstr "Contact"
+
+#: app/blueprints/templates/includes/_contact.html:7 
+#: app/blueprints/templates/includes/_timeline.html:20
+#:  
+#: app/blueprints/templates/includes/navigation.html:46
+#:  
+#: app/blueprints/templates/includes/navigation.html:130
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+#: app/blueprints/templates/includes/_contact.html:8
+msgid ""
+"If you have questions dont hesitate to ask! You can just leave contact if "
+"you want us to reach."
+msgstr ""
+"Si vous avez des questions n'hésitez pas à nous les poser ! Vous pouvez "
+"simplement laisser vos coordonnées si vous souhaitez que nous vous "
+"contactions."
+
+#: app/blueprints/templates/includes/_contact.html:18
+#:  app/templates/includes/_contact.html:18
+msgid "First name"
+msgstr "Prénom"
+
+#: app/blueprints/templates/includes/_contact.html:23
+#:  app/templates/includes/_contact.html:23
+msgid "Last name"
+msgstr "Nom"
+
+#: app/blueprints/templates/includes/_contact.html:36
+#:  app/templates/includes/_contact.html:36
+msgid "Write your message"
+msgstr "Écrivez votre message"
+
+#: app/blueprints/templates/includes/_timeline.html:22
+msgid ""
+"You have finally decided to do a hair transplant. We would like to learn "
+"more about you in order to provide you with more relevant information. "
+"Contact us to receive more information about our services."
+msgstr ""
+"Vous vous êtes enfin décidé à faire une transplantation capillaire. Nous "
+"aimerions en apprendre plus sur vous afin de vous fournir des informations "
+"pertinentes. Contactez-nous pour en savoir plus sur nos services."
+
+#: app/blueprints/templates/includes/_timeline.html:40
+msgid "Online Free Consultation"
+msgstr "Consultation en ligne gratuite"
+
+#: app/blueprints/templates/includes/_timeline.html:42
+msgid ""
+"We are all unique. Not everyone shows the same type of hair loss. Already in "
+"contact with our online support, you are invited to send us photos of your "
+"hair for a first diagnosis. This first completely free consultation consists "
+"of finding out about the condition of your hair, the type of hair loss and "
+"the extent of the area to be corrected. We will share your photos with our "
+"surgeons so that they can develop an action plan to satisfy your needs and "
+"expectations."
+msgstr ""
+"Nous sommes tous unique. Tout le monde ne montre pas le même type de chute "
+"de cheveux. Déjà en contact avec notre assistance en ligne, nous vous "
+"invitons à nous envoyer des photos de vos cheveux pour un premier diagnostic."
+" Cette première consultation entièrement gratuite consiste à prendre "
+"connaissance de l’état de vos cheveux, du type de chute et de l’étendue de "
+"la zone à corriger.  Nous communiquerons vos photos avec nos chirurgiens "
+"afin qu’ils élaborent un plan d’action pour répondre à vos besoins et "
+"attentes."
+
+#: app/blueprints/templates/includes/_timeline.html:65
+msgid "Making Appointments"
+msgstr "Prise de rendez-vous"
+
+#: app/blueprints/templates/includes/_timeline.html:66
+msgid ""
+"The proposed quotation matches your budget and you want to make an "
+"appointment for the operation. Let us know the dates of your availability. "
+"Once the appointment is fixed, a deposit of 15 percent of the total price "
+"will be required."
+msgstr ""
+"Le devis proposé correspond à votre budget et vous voulez prendre un rendez-"
+"vous pour l’opération. Communiquez-nous les dates de votre disponibilité. "
+"Une fois le rendez-vous fixé, un acompte de 15 pourcentage du prix total "
+"sera exigé."
+
+#: app/blueprints/templates/includes/_timeline.html:83
+msgid "Travel, Transport and Accommodation"
+msgstr "Voyage, transport et hébergement"
+
+#: app/blueprints/templates/includes/_timeline.html:85
+msgid ""
+"You have booked your plane ticket to Istanbul. You communicate with our team "
+"the information of your flight. On arrival at Istanbul Airport, our "
+"transport agent will meet you at the exit and escort you to your hotel. Once "
+"there, you can already get in touch with your translator-interpreter for any "
+"questions and additional service requests."
+msgstr ""
+"Vous avez réservé votre billet d’avion en direction d’Istanbul. Vous "
+"communiquez avec notre équipe les informations de votre vol. À votre arrivée "
+"à l’aéroport d’Istanbul, notre agent de transport vous accueillera à la "
+"sortie et vous escortera jusqu’à votre hôtel. Une fois sur place, vous "
+"pouvez dores et déjà entrer en contact avec votre traducteur-interprète pour "
+"toutes questions et demande de service supplémentaires."
+
+#: app/blueprints/templates/includes/_timeline.html:107
+msgid "Arrival at the Clinic"
+msgstr "Arrivée à la clinique"
+
+#: app/blueprints/templates/includes/_timeline.html:108
+msgid ""
+"The next day, your translator-interpreter accompanies you to the clinic. At "
+"your disposal throughout the operation, the interpreter remains at your "
+"disposal for all your questions and your immediate needs. He/she will be "
+"responsible for translating all the words spoken by the surgeon and his team."
+msgstr ""
+"Le lendemain, votre traducteur-interprète vous accompagne jusque la clinique."
+" À votre disposition tout au long de l’opération, l’interprète reste à votre "
+"écoute pour toutes vos questions et vos besoins immédiats. Il sera chargé de "
+"vous traduire toutes les paroles énoncées par le chirurgien et son équipe."
+
+#: app/blueprints/templates/includes/_timeline.html:125
+msgid "Post-operative Treatments"
+msgstr "Traitements post-opératoire"
+
+#: app/blueprints/templates/includes/_timeline.html:126
+msgid ""
+"After the operation, you will be escorted back to the hotel. Staying at rest "
+"is strongly recommended. The next day you will be accompanied to the clinic "
+"again with the interpreter. The surgeon and his team will show you how to "
+"wash your hair after the operation. A kit containing shampoo and lotion will "
+"be provided to you in addition to the medicines to be taken after the "
+"operation. These kits are free, however, if you wish, you can purchase a "
+"hair care kit that contains shampoo, lotion, essential oil and essential "
+"vitamins to stimulate and strengthen your hair."
+msgstr ""
+"Après l’opération, vous serez raccompagné à l’hôtel. En effet,  rester au "
+"repos est vivement conseillé . Le lendemain vous serez de nouveau accompagné "
+"à la clinique avec l’interprète. Le chirurgien et son équipe vous montreront "
+"comment laver vos cheveux après l’opération. Un kit contenant shampoing et "
+"lotion vous sera fourni en plus des médicaments à prendre après l’opération. "
+"Ces kit-là sont gratuits, toutefois, si vous le souhaitez, vous pouvez "
+"acheter sur place un coffret de soins capillaires contenant shampoing, "
+"lotion, huiles essentielles et vitamines essentielles pour stimuler et "
+"renforcer vos cheveux."
+
+#: app/blueprints/templates/includes/_timeline.html:148
+msgid "Return"
+msgstr "Retour"
+
+#: app/blueprints/templates/includes/_timeline.html:149
+msgid ""
+"You will eventually be escorted back to the airport. A PCR test will be done "
+"beforehand insofar as the country of which you are a national requires one."
+msgstr ""
+"Vous serez finalement raccompagné à l’aéroport. Un test PCR sera fait au "
+"préalable dans la mesure où le pays dont vous êtes le ressortissant en exige "
+"un."
+
+#: app/blueprints/templates/includes/navigation.html:60
+msgid "Hair Transplant"
+msgstr "Greffe de cheveux"
+
+#: app/blueprints/templates/includes/navigation.html:69
+msgid "Male Hair Transplant"
+msgstr "Greffe de cheveux pour homme"
+
+#: app/blueprints/templates/includes/navigation.html:76
+msgid "Female Hair Transplant"
+msgstr "Greffe de cheveux pour femme"
+
+#: app/blueprints/templates/includes/navigation.html:83
+msgid "Facial Hair Transplant"
+msgstr "Greffe de barbe "
+
+#: app/blueprints/templates/includes/navigation.html:90
+msgid "Eyebrow Transplant"
+msgstr "Greffe de sourcils"
+
+#: app/blueprints/templates/includes/navigation.html:97
+msgid "Transplant Methods"
+msgstr "Méthodes de transplantation"
+
+#: app/blueprints/templates/includes/navigation.html:107
+msgid "About"
+msgstr "À propos"
+
+#: app/blueprints/templates/includes/navigation.html:140
+msgid "Our Services"
+msgstr "Nos services"
+
+#: app/blueprints/templates/includes/navigation.html:146
+msgid "FAQ"
+msgstr "FAQ"

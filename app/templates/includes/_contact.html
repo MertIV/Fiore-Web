@@ -1,0 +1,68 @@
+<link type="text/css" href="/static/assets/css/_contactform.css?newcache08" rel="stylesheet">
+
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+  
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-5 mb-lg-0">
+            <div class="ml-auto">
+              <h3 class="h1 mb-4">{{_('Contact Us')}}</h3>
+              <p class="fw-normal">{{_('If you have questions dont hesitate to ask! You can just leave contact if you want us to reach.')}}</p>
+              <!-- <p><a href="#">Read more</a></p> -->
+            </div>
+            <form class="border-right pr-5" method="post" id="contactForm" name="contactForm" action="" action="#">
+              {{ form.hidden_tag() }}
+              <div class="row mb-3">
+                <div class="col-md-6 mb-lg-2 mb-3 form-group">
+                  {{ form.first_name(class="form-control",placeholder=_("First name")) }}
+                  <!-- <input type="text" class="form-control" name="first_name" id="first_name" placeholder="First name"> -->
+                </div>
+                <div class="col-md-6 form-group">
+                  <!-- <input type="text" class="form-control" name="last_name" id="last_name" placeholder="Last name"> -->
+                  {{ form.last_name(class="form-control",placeholder=_("Last name")) }}
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-md-12 form-group">
+                  {{ form.phone(class="form-control",placeholder=_("Phone Number or E-mail")) }}
+                  <!-- <input type="text" class="form-control" name="phone_number" id="phone_number" placeholder="Phone Number"> -->
+                </div>
+              </div>
+
+              <div class="row mb-4">
+                <div class="col-md-12 form-group">
+                  <!-- <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea> -->
+                  {{ form.message(class="form-control",placeholder=_("Write your message")) }}
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                      <input type="submit" value="Send Message"  class="btn btn-primary mt-2 animate-up-2" style="background-color:#a38004; border-color: #a38004;">
+                      <span class="submitting"></span>
+                </div>
+              </div>
+            </form>
+
+            <div id="form-message-warning mt-4"></div> 
+            <div id="form-message-success">
+              Your message was sent, thank you!
+            </div>
+
+          </div>
+          <div  class="col-12 col-lg-7 order-lg-1" >
+            <img class="shadow-lg" style="opacity: 0.9; border-radius: 1%;" src="/static/assets/img/pages/form-contact.png">
+        </div>
+
+        </div>
+
+      </div>  
+      </div>
+    </div>
+
+
+    <script>
+      if ( window.history.replaceState ) {
+          window.history.replaceState( null, null, window.location.href );
+      }
+    </script>

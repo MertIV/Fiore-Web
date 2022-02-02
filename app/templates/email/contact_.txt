@@ -1,0 +1,12 @@
+Dear Support,
+
+Contact Information is 
+
+{% for key, value in contact_data.items() %} 
+  {{key}} - {{value}}
+{% endfor %}
+
+
+Sincerely,
+
+The Fiore Team

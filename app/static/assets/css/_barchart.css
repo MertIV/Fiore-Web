@@ -1,0 +1,192 @@
+
+#barchart.flex-cont {
+	width: 100%;
+}
+
+#barchart .title{
+    display: flex;
+}
+
+#barchart .site-name {
+	font-weight: 400;
+	color: #ffffff;
+	padding: 5px 12px 5px 12px;
+	background-color: #333333;
+	border-radius: 30px;
+	box-shadow: 0px 0px 50px #111111;
+	margin-bottom: 2.5rem;
+}
+@media(max-width:992px)  {#barchart .site-name {
+	font-size: 1.3rem;}}
+@media(min-width : 1200px)  {#barchart .fill{
+	font-size: 2rem;}}
+
+
+
+#barchart .fill {
+    margin-left: 0.5rem;
+	height: 15px;
+	border-radius: 4px;
+	background-color: #FF8095;
+	box-shadow: 0px 0px 30px #FF2AA6;
+}
+
+@media(min-width : 992px)  {#barchart .fill{
+	height: 18px;}}
+@media(min-width : 1200px)  {#barchart .fill{
+	height: 21px;
+}}
+@media(min-width : 1440px)  {#barchart .fill{
+	height: 23px;
+ }}
+
+#barchart .fill-u {
+    width: 29%;
+}
+
+#barchart .fill-p {
+	width: 80%;
+}
+
+#barchart .fill-ns {
+    width: 70%;
+}
+
+#barchart .fill-br {
+	width: 97%;
+}
+
+#barchart .fill-uk {
+	width: 85%;
+}
+
+#barchart .fill-p.animated {
+	animation-name: filling-p;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: initial;
+}
+
+#barchart .fill-u.animated {
+	animation-name: filling-u;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: initial;
+}
+
+#barchart .fill-ns.animated {
+	animation-name: filling-ns;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: initial;
+}
+
+#barchart .fill-br.animated {
+	animation-name: filling-br;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: initial;
+}
+
+#barchart .fill-uk.animated {
+	animation-name: filling-uk;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: initial;
+}
+
+#barchart .bar-title {
+	font-size: 0.875rem;
+	font-weight: 600; }
+	#barchart .bar-title img {
+	  height: 100%;
+	  max-width: 35px;
+	  margin: 0 0.5rem;
+	  margin-bottom: 0.2rem;
+	}
+
+@media(max-width : 1200px)  {#barchart .bar-title img {
+height: 18px;
+max-width: 18px; }}
+
+@media(max-width : 992px)  {#barchart .number {
+font-size: 1.1rem; }}
+		
+#barchart .number.animated {
+	/* color: #727681;
+	line-height: 50px;
+	font-weight: 300; */
+	animation-name: fade-in;
+	animation-duration: 2s;
+	animation-delay: 0s;
+	animation-iteration-count: initial;
+}
+
+
+
+@keyframes filling-u {
+	0% {
+		box-shadow: 0px 0px 0px #FF2AA6;
+		width: 0%;
+	}
+	100% {
+		box-shadow: 0px 0px 30px #FF2AA6;
+		width: 29%;
+	}
+}
+
+
+@keyframes filling-p {
+	0% {
+		box-shadow: 0px 0px 0px #FF2AA6;
+		width: 0%;
+	}
+	100% {
+		box-shadow: 0px 0px 30px #FF2AA6;
+		width: 80%;
+	}
+}
+
+@keyframes filling-ns {
+	0% {
+		box-shadow: 0px 0px 0px #FF2AA6;
+		width: 0px;
+	}
+	100% {
+		box-shadow: 0px 0px 30px #FF2AA6;
+		width: 70%;
+	}
+}
+
+
+@keyframes filling-br {
+	0% {
+		box-shadow: 0px 0px 0px #FF2AA6;
+		width: 0px;
+	}
+	100% {
+		box-shadow: 0px 0px 30px #FF2AA6;
+		width: 97%;
+	}
+}
+
+@keyframes filling-uk {
+	0% {
+		box-shadow: 0px 0px 0px #FF2AA6;
+		width: 0px;
+	}
+	100% {
+		box-shadow: 0px 0px 30px #FF2AA6;
+		width: 85%;
+	}
+}
+
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
