@@ -144,7 +144,22 @@ def our_partners():
 @bp.route('/about-us',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
 @bp.route('/a-propos-de-nous', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def about():
-    return render_template('home/about.html')
+    form = ContactForm(request.form)
+    
+    if form.validate_on_submit():
+        first_name = request.form.get('first_name', '', type=str)
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
+        message = request.form.get('message', '', type=str)
+
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json)
+
+    return render_template('home/about.html',form=form)
 
 @bp.route('/contact-us',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
 @bp.route('/contactez-nous', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])

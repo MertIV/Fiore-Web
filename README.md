@@ -17,7 +17,6 @@ Open-Source **[Flask](https://appseed.us/apps/flask-apps)** starter coded with b
 <br />
 
 > Links
-
 - 👉 [Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit) - Product page
 - 👉 [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Demo
 - 👉 More [Flask Apps](https://appseed.us/apps/flask-apps) - provided by AppSeed 
