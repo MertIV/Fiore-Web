@@ -116,7 +116,7 @@ def eyebrow_transplant():
     return render_template('home/eyebrow-transplant.html',form=form)
 
 @bp.route('/transplant-methods',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
-@bp.route('/méthodes-de-transplantation', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
+@bp.route('/methodes-de-transplantation', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def transplant_methods():
     form = ContactForm(request.form)
 

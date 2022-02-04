@@ -8,7 +8,7 @@ from app        import app
 def home():
     g.lang_code = request.accept_languages.best_match(app.config['LANGUAGES'])
     return redirect(url_for('bp.index'))
-    
+
 
 # Return sitemap
 @app.route('/sitemap.xml')
