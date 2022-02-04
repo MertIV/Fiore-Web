@@ -61,7 +61,7 @@ def index():
 
     return render_template('home/index.html', form=form)
 
-@bp.route('/male-hair-transplant',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/male-hair-transplant',methods=['GET', 'POST'])
 @bp.route('/greffe-de-chevuex-pour-homme', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def male_transplant():
     form = ContactForm(request.form)
@@ -74,7 +74,7 @@ def male_transplant():
 
     return render_template('home/male-transplant.html',form=form)
 
-@bp.route('/female-hair-transplant',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/female-hair-transplant',methods=['GET', 'POST'])
 @bp.route('/greffe-de-chevuex-pour-femme', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def female_transplant():
     form = ContactForm(request.form)
@@ -87,7 +87,7 @@ def female_transplant():
 
     return render_template('home/female-transplant.html',form=form)
 
-@bp.route('/facial-hair-transplant',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/facial-hair-transplant',methods=['GET', 'POST'])
 @bp.route('/greffe-de-barbe', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def facial_transplant():
     form = ContactForm(request.form)
@@ -101,7 +101,7 @@ def facial_transplant():
     return render_template('home/facial-transplant.html',form=form)
 
 
-@bp.route('/prp-treatment',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/prp-treatment',methods=['GET', 'POST'])
 @bp.route('/prp', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def prp_treatment():
     form = ContactForm(request.form)
@@ -116,7 +116,7 @@ def prp_treatment():
 
 
 
-@bp.route('/eyebrow-transplant',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/eyebrow-transplant',methods=['GET', 'POST'])
 @bp.route('/greffe-de-sourcils', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def eyebrow_transplant():
     form = ContactForm(request.form)
@@ -129,7 +129,7 @@ def eyebrow_transplant():
 
     return render_template('home/eyebrow-transplant.html',form=form)
 
-@bp.route('/transplant-methods',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/transplant-methods',methods=['GET', 'POST'])
 @bp.route('/methodes-de-transplantation', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def transplant_methods():
     form = ContactForm(request.form)
@@ -142,7 +142,7 @@ def transplant_methods():
 
     return render_template('home/transplant-methods.html',form=form)
 
-@bp.route('/our-partners',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/our-partners',methods=['GET', 'POST'])
 @bp.route('/nos-partenaires', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def our_partners():
     form = ContactForm(request.form)
@@ -155,7 +155,7 @@ def our_partners():
 
     return render_template('home/our-partners.html',form=form)
 
-@bp.route('/about-us',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/about-us',methods=['GET', 'POST'])
 @bp.route('/a-propos-de-nous', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def about():
     form = ContactForm(request.form)
@@ -175,22 +175,22 @@ def about():
 
     return render_template('home/about.html',form=form)
 
-@bp.route('/contact-us',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/contact-us',methods=['GET', 'POST'])
 @bp.route('/contactez-nous', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def contact():
     return render_template('home/about.html')
 
-@bp.route('/our-services',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/our-services',methods=['GET', 'POST'])
 @bp.route('/nos-services', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def services():
     return render_template('home/about.html')
 
-@bp.route('/packages',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/packages',methods=['GET', 'POST'])
 @bp.route('/package', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def packages():
     return render_template('home/about.html')
 
-@bp.route('/experience',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/experience',methods=['GET', 'POST'])
 @bp.route('/experiences', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def experience():
     form = ContactForm(request.form)
@@ -203,7 +203,7 @@ def experience():
          
     return render_template('home/experience.html',form=form)
 
-@bp.route('/faq',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
+@bp.route('/faq',methods=['GET', 'POST'])
 @bp.route('/faq', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def faq():
     return render_template('home/about.html')
