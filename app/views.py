@@ -9,7 +9,6 @@ def home():
     g.lang_code = request.accept_languages.best_match(app.config['LANGUAGES'])
     return redirect(url_for('bp.index'))
     
-
 # Return sitemap
 @app.route('/sitemap.xml')
 def sitemap():
@@ -17,8 +16,9 @@ def sitemap():
 
 
 @app.route('/robots.txt')
-def sitemap():
+def robots():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'robots.txt')
+
 # provide login manager with load_user callback
 # @lm.user_loader
 # def load_user(user_id):
