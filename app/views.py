@@ -4,10 +4,10 @@ import os
 from flask      import url_for, redirect, send_from_directory, g, request
 from app        import app
 
-@app.route('/')
-def home():
-    g.lang_code = request.accept_languages.best_match(app.config['LANGUAGES'])
-    return redirect(url_for('bp.index'))
+# @app.route('/')
+# def home():
+#     g.lang_code = request.accept_languages.best_match(app.config['LANGUAGES'])
+#     return redirect(url_for('bp.index'))
 
 
 # Return sitemap
