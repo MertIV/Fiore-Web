@@ -16433,7 +16433,7 @@ label {
     background-color: #a5430a;
     color: #ffffff; }
 
-.pixel-pro-badge {
+.fiore-pro-badge {
   position: relative;
   font-size: 0.875rem;
   text-transform: uppercase;
@@ -16445,7 +16445,7 @@ label {
   border-radius: 0.6rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; }
   @media (max-width: 575.98px) {
-    .pixel-pro-badge {
+    .fiore-pro-badge {
       font-size: .7rem;
       right: -13px;
       padding: 3px 7px;
@@ -19714,7 +19714,7 @@ blockquote {
 .ct-line {
   pointer-events: none; }
 
-/*# sourceMappingURL=pixel.css.map */
+/*# sourceMappingURL=fiore.css.map */
 
 .fa-instagram {
   color: transparent;
