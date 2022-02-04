@@ -1,67 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fioreclinic.com/en/index</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://www.fioreclinic.com/en/index</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://www.fioreclinic.com/fr/index"/>
   </url>
   <url>
-    <loc>https://fioreclinic.com/en/experience</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://www.fioreclinic.com/en/experience</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://www.fioreclinic.com/fr/experiences"/>
   </url>
   <url>
-    <loc>https://fioreclinic.com/fr/experiences</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/fr/greffe-de-chevuex-pour-homme</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/en/eyebrow-transplant</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/fr/greffe-de-sourcils</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/en/about-us</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/fr/a-propos-de-nous</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/en/transplant-methods</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/fr/methodes-de-transplantation</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/en/male-hair-transplant</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/en/female-hair-transplant</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/fr/greffe-de-barbe</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/fr/greffe-de-chevuex-pour-femme</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/en/facial-hair-transplant</loc>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://fioreclinic.com/fr/index</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://www.fioreclinic.com/en/male-hair-transplant</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://www.fioreclinic.com/fr/greffe-de-chevuex-pour-homme"/>
   </url>
 </urlset>
