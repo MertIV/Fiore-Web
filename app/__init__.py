@@ -2,7 +2,7 @@
 import os
 from logging.handlers import SMTPHandler
 
-from flask            import Flask,request, g, redirect, url_for,session,current_app,abort
+from flask            import Flask,request, g, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt     import Bcrypt
 from flask_babel      import Babel
@@ -27,32 +27,6 @@ babel = Babel    (app) # flask-babel
 mail = Mail      (app) # flask-mail
 
 
-@app.before_request
-def before_request():
-    if request.view_args==None:
-        if not 'lang_code' in session.keys():
-            return redirect('/en' + request.full_path)
-        else:
-            return redirect('/'+session['lang_code']+request.full_path)
-
-    # if g.lang_code not in current_app.config['LANGUAGES']:
-    #     adapter = app.url_map.bind('')
-    #     try:
-    #         endpoint, args = adapter.match('/en' + request.full_path.rstrip('/ ?'))
-    #         return redirect(url_for(endpoint, **args), 301)
-    #     except:
-    #         print('Burda cortladın')
-    #         abort(404)
-
-    # dfl = request.url_rule.defaults
-    # if 'lang_code' in dfl:
-    #     if dfl['lang_code'] != request.full_path.split('/')[1]:
-    #         print('Hayır Burda cortladın')
-    #         abort(404)
-
-@app.context_processor
-def inject_lang():
-    return dict(sess_lang=session['lang_code'])
 
 @babel.localeselector
 def get_locale():

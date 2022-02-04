@@ -1,9 +1,10 @@
 import os, logging 
 
 # Flask modules
-from flask               import render_template, request, url_for, redirect, g,current_app, abort,session
+from flask               import render_template, request, url_for, redirect, send_from_directory, Blueprint, g,current_app, abort
 from werkzeug.exceptions import HTTPException, NotFound, abort
 from jinja2              import TemplateNotFound
+from json                import dumps
 from flask_babel         import _, refresh, get_locale
 
 # App modules
@@ -14,15 +15,12 @@ from app.email  import send_contact_form
 
 @bp.url_defaults
 def add_language_code(endpoint, values):
-    if current_app.url_map.is_endpoint_expecting(endpoint, 'lang_code'):
-        values['lang_code'] = session['lang_code']
-        g.lang_code = session['lang_code']
     values.setdefault('lang_code', g.lang_code)
 
 @bp.url_value_preprocessor
 def pull_lang_code(endpoint, values):
-    session['lang_code']=values.pop('lang_code')
-    g.lang_code = session.get('lang_code',None)
+    g.lang_code = values.pop('lang_code')
+
 
 @bp.before_request
 def before_request(*args, **kwargs):
@@ -41,12 +39,6 @@ def before_request(*args, **kwargs):
         if dfl['lang_code'] != request.full_path.split('/')[1]:
             print('Hayır Burda cortladın')
             abort(404)
-
-
-@bp.route('/change/<new_lang_code>')
-def change(new_lang_code):
-    session['lang_code']=new_lang_code
-    return redirect(url_for('bp.index'))
 
 
 @bp.route('/',methods=['GET', 'POST'])
@@ -107,7 +99,6 @@ def facial_transplant():
         message = request.form.get('message', '', type=str)
 
     return render_template('home/facial-transplant.html',form=form)
-
 
 
 @bp.route('/prp-treatment',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
