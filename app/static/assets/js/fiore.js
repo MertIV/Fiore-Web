@@ -15,11 +15,11 @@ d.addEventListener("DOMContentLoaded", function(event) {
     if(preloader) {
         const animations = ['oneByOne', 'delayed', 'sync', 'scenario'];
 
-        new Vivus('loader-logo', {duration: 50, type: 'sync'}, function () {});
+        new Vivus('loader-logo', {duration: 40, type: 'oneByOne'}, function () {});
 
         setTimeout(function() {
             preloader.classList.add('show');
-        }, 1100);
+        }, 600);
     }
 
     if (d.querySelector('.headroom')) {
