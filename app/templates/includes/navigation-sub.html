@@ -1,20 +1,20 @@
 <header class="header-global">
     <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-dark" style="background-color: white; padding-bottom: 5px;">
         <div class="position-absolute header-top align-items-center" style="top:0.5vh; left: 0.5vw;">
-            <a href="{{ url_for(request.endpoint, lang_code='en') }}" class="text-md-right " type="button" aria-label="whatsapp button"
-            title="whatsapp button" style="padding-top: 0.3rem;">
+            <a href="{{ url_for(request.endpoint, lang_code='en') }}" class="text-md-right" alt="english" type="button" aria-label="english"
+            title="english" style="padding-top: 0.3rem;">
             <span class="icon icon-sm navbar-droplogo"><img src="/static/assets/img/flags/gb.svg"></img></span>
             </a>
             <hr class="header-top"  style="color: black !important; margin: 0 5px !important; height: 12px;" width="2">
-            <a href="{{ url_for(request.endpoint, lang_code='fr') }}" class="text-md-right" type="button" aria-label="whatsapp button"
-            title="whatsapp button" style="padding-top: 0.3rem;">
+            <a href="{{ url_for(request.endpoint, lang_code='fr') }}" alt="french" class="text-md-right" type="button" aria-label="french"
+            title="french" style="padding-top: 0.3rem;">
             <span class="icon icon-sm navbar-droplogo"><img src="/static/assets/img/flags/fr.svg"></img></span>
             </a>
         </div>
         <div class="container-lg position-relative">
 
             <a class="navbar-brand position-relative col-2" href="{{ url_for('bp.index') }}">
-                <img class="navbar-brand-suki" src="/static/assets/img/brand/logo_stripless2.svg" alt="Logo suki">
+                <img class="navbar-brand-suki" src="/static/assets/img/brand/logo_stripless2.svg" alt="Fiore Logo">
             </a>
             <hr class="verticalLine header-top" style="margin-left: 15px;" width="2" size="50px">
             <div class="navbar-collapse collapse col-auto" id="navbar_global">
