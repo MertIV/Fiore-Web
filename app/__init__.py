@@ -2,8 +2,7 @@
 import os
 from logging.handlers import SMTPHandler
 
-from flask            import Flask,request, g, redirect, url_for
-from flask_sqlalchemy import SQLAlchemy
+from flask            import Flask,request, g
 from flask_bcrypt     import Bcrypt
 from flask_babel      import Babel
 from flask_mail       import Mail
@@ -21,12 +20,9 @@ app.register_blueprint(bp)
 from app.errors import bp as errors_bp
 app.register_blueprint(errors_bp)
 
-db = SQLAlchemy  (app) # flask-sqlalchemy
 bc = Bcrypt      (app) # flask-bcrypt
 babel = Babel    (app) # flask-babel
 mail = Mail      (app) # flask-mail
-
-
 
 @babel.localeselector
 def get_locale():

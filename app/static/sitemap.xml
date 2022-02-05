@@ -7,13 +7,14 @@
                rel="alternate"
                hreflang="fr"
                href="https://www.fioreclinic.com/fr/index"/>
-  </url>
-  <url>
-    <loc>https://www.fioreclinic.com/en/experience</loc>
     <xhtml:link
-               rel="alternate"
-               hreflang="fr"
-               href="https://www.fioreclinic.com/fr/experiences"/>
+            rel="alternate"
+            hreflang="en"
+            href="https://www.fioreclinic.com/en/"/>
+    <xhtml:link
+            rel="alternate"
+            hreflang="fr"
+            href="https://www.fioreclinic.com/fr/"/>
   </url>
   <url>
     <loc>https://www.fioreclinic.com/en/male-hair-transplant</loc>
@@ -21,5 +22,61 @@
                rel="alternate"
                hreflang="fr"
                href="https://www.fioreclinic.com/fr/greffe-de-chevuex-pour-homme"/>
+  </url>
+  <url>
+    <loc>https://www.fioreclinic.com/en/female-hair-transplant</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://www.fioreclinic.com/fr/greffe-de-chevuex-pour-femme"/>
+  </url>
+  <url>
+    <loc>https://www.fioreclinic.com/en/facial-hair-transplant</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://www.fioreclinic.com/fr/greffe-de-barbe"/>
+  </url>
+  <url>
+    <loc>https://www.fioreclinic.com/en/eyebrow-transplant</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://www.fioreclinic.com/fr/greffe-de-sourcils"/>
+  </url>
+  <url>
+    <loc>https://www.fioreclinic.com/en/transplant-methods</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.fioreclinic.com/fr/methodes-de-transplantation"/>
+  </url>
+  <url>
+    <loc>https://www.fioreclinic.com/en/transplant-methods</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.fioreclinic.com/fr/methodes-de-transplantation"/>
+  </url>
+  <url>
+    <loc>https://www.fioreclinic.com/en/prp-treatment</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.fioreclinic.com/fr/prp"/>
+  </url>
+  <url>
+    <loc>https://www.fioreclinic.com/en/about-us</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.fioreclinic.com/fr/a-propos-de-nous"/>
+  </url>
+    <url>
+    <loc>https://www.fioreclinic.com/en/experience</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.fioreclinic.com/fr/experiences"/>
   </url>
 </urlset>
