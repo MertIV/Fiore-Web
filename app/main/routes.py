@@ -188,7 +188,22 @@ def services():
 @bp.route('/packages',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
 @bp.route('/package', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def packages():
-    return render_template('home/about.html')
+    form = ContactForm(request.form)
+    
+    if form.validate_on_submit():
+        first_name = request.form.get('first_name', '', type=str)
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
+        message = request.form.get('message', '', type=str)
+
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json) 
+
+    return render_template('home/packages.html',form=form)
 
 @bp.route('/experience',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
 @bp.route('/experiences', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
