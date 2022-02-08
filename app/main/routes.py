@@ -24,26 +24,28 @@ def pull_lang_code(endpoint, values):
 
 @bp.before_request
 def before_request(*args, **kwargs):
+    g.locale = str(get_locale())
+
     if g.lang_code not in current_app.config['LANGUAGES']:
         adapter = app.url_map.bind('')
         try:
             endpoint, args = adapter.match('/en' + request.full_path.rstrip('/ ?'))
             return redirect(url_for(endpoint, **args), 301)
         except:
-            print('Burda cortladın')
             abort(404)
-            
 
     dfl = request.url_rule.defaults
     if 'lang_code' in dfl:
         if dfl['lang_code'] != request.full_path.split('/')[1]:
-            print('Hayır Burda cortladın')
             abort(404)
+
 
 
 @bp.route('/',methods=['GET', 'POST'])
 @bp.route('/index',methods=['GET', 'POST'])
 def index():
+    g.lang_code = request.accept_languages.best_match(app.config['LANGUAGES'])
+
     form = ContactForm(request.form)
     
     if form.validate_on_submit():
