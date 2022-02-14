@@ -116,7 +116,35 @@ d.addEventListener("DOMContentLoaded", function(event) {
     }
 
 
+    // document.addEventListener("DOMContentLoaded", function(event) {
 
+    //     let options = {
+    //         root: null,
+    //         rootMargin: '0px',
+    //         threshold: 1.0 
+    //     }
 
+    //     function callback (observations, observer) {
+    //         observations.forEach(observation => {
+    //             if (observation.isIntersecting) {
+    //             observation.target.classList.add('animated');
+    //             }
+    //             else {
+    //             observation.target.classList.remove('animated');
+    //             }      
+    //         });
+    //         }
+
+    //     let observer = new IntersectionObserver(callback, options);
+
+    //     let spans = document.querySelectorAll('.fill');
+    //     for (let i=0; i< spans.length; i++) {
+    //     observer.observe(spans[i]); 
+
+    //     let numbers = document.querySelectorAll('.number');
+    //     for (let i=0; i< numbers.length; i++) {
+    //     observer.observe(numbers[i]); }
+
+    // }});
 });
 

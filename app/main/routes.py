@@ -44,8 +44,6 @@ def before_request(*args, **kwargs):
 @bp.route('/',methods=['GET', 'POST'])
 @bp.route('/index',methods=['GET', 'POST'])
 def index():
-    g.lang_code = request.accept_languages.best_match(app.config['LANGUAGES'])
-
     form = ContactForm(request.form)
     
     if form.validate_on_submit():
@@ -67,12 +65,19 @@ def index():
 @bp.route('/greffe-de-chevuex-pour-homme', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def male_transplant():
     form = ContactForm(request.form)
-
+    
     if form.validate_on_submit():
         first_name = request.form.get('first_name', '', type=str)
-        last_name = request.form.get('last_name', '', type=str) 
-        phone_number = request.form.get('phone', '', type=str) 
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
         message = request.form.get('message', '', type=str)
+
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json)
 
     return render_template('home/male-transplant.html',form=form)
 
@@ -80,12 +85,19 @@ def male_transplant():
 @bp.route('/greffe-de-chevuex-pour-femme', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def female_transplant():
     form = ContactForm(request.form)
-
+    
     if form.validate_on_submit():
         first_name = request.form.get('first_name', '', type=str)
-        last_name = request.form.get('last_name', '', type=str) 
-        phone_number = request.form.get('phone', '', type=str) 
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
         message = request.form.get('message', '', type=str)
+
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json)
 
     return render_template('home/female-transplant.html',form=form)
 
@@ -93,12 +105,19 @@ def female_transplant():
 @bp.route('/greffe-de-barbe', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def facial_transplant():
     form = ContactForm(request.form)
-
+    
     if form.validate_on_submit():
         first_name = request.form.get('first_name', '', type=str)
-        last_name = request.form.get('last_name', '', type=str) 
-        phone_number = request.form.get('phone', '', type=str) 
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
         message = request.form.get('message', '', type=str)
+
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json)
 
     return render_template('home/facial-transplant.html',form=form)
 
@@ -107,12 +126,19 @@ def facial_transplant():
 @bp.route('/prp', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def prp_treatment():
     form = ContactForm(request.form)
-
+    
     if form.validate_on_submit():
         first_name = request.form.get('first_name', '', type=str)
-        last_name = request.form.get('last_name', '', type=str) 
-        phone_number = request.form.get('phone', '', type=str) 
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
         message = request.form.get('message', '', type=str)
+
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json)
 
     return render_template('home/prp-treatment.html',form=form)
 
@@ -122,12 +148,19 @@ def prp_treatment():
 @bp.route('/greffe-de-sourcils', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def eyebrow_transplant():
     form = ContactForm(request.form)
-
+    
     if form.validate_on_submit():
         first_name = request.form.get('first_name', '', type=str)
-        last_name = request.form.get('last_name', '', type=str) 
-        phone_number = request.form.get('phone', '', type=str) 
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
         message = request.form.get('message', '', type=str)
+
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json)
 
     return render_template('home/eyebrow-transplant.html',form=form)
 
@@ -135,12 +168,19 @@ def eyebrow_transplant():
 @bp.route('/methodes-de-transplantation', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def transplant_methods():
     form = ContactForm(request.form)
-
+    
     if form.validate_on_submit():
         first_name = request.form.get('first_name', '', type=str)
-        last_name = request.form.get('last_name', '', type=str) 
-        phone_number = request.form.get('phone', '', type=str) 
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
         message = request.form.get('message', '', type=str)
+
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json)
 
     return render_template('home/transplant-methods.html',form=form)
 
@@ -148,12 +188,19 @@ def transplant_methods():
 @bp.route('/nos-partenaires', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def our_partners():
     form = ContactForm(request.form)
-
+    
     if form.validate_on_submit():
         first_name = request.form.get('first_name', '', type=str)
-        last_name = request.form.get('last_name', '', type=str) 
-        phone_number = request.form.get('phone', '', type=str) 
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
         message = request.form.get('message', '', type=str)
+
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json)
 
     return render_template('home/our-partners.html',form=form)
 
@@ -180,12 +227,23 @@ def about():
 @bp.route('/contact-us',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
 @bp.route('/contactez-nous', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def contact():
-    return render_template('home/about.html')
+    form = ContactForm(request.form)
+    
+    if form.validate_on_submit():
+        first_name = request.form.get('first_name', '', type=str)
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
+        message = request.form.get('message', '', type=str)
 
-@bp.route('/our-services',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
-@bp.route('/nos-services', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
-def services():
-    return render_template('home/about.html')
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json)
+
+    return render_template('home/contact.html', form=form)
+
 
 @bp.route('/packages',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
 @bp.route('/package', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
@@ -211,13 +269,20 @@ def packages():
 @bp.route('/experiences', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def experience():
     form = ContactForm(request.form)
-
+    
     if form.validate_on_submit():
         first_name = request.form.get('first_name', '', type=str)
-        last_name = request.form.get('last_name', '', type=str) 
-        phone_number = request.form.get('phone', '', type=str) 
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
         message = request.form.get('message', '', type=str)
-         
+
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json)
+        
     return render_template('home/experience.html',form=form)
 
 @bp.route('/faq',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
