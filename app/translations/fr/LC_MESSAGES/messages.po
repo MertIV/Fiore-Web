@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-04 23:31+0300\n"
+"POT-Creation-Date: 2022-03-05 00:17+0300\n"
 "PO-Revision-Date: 2022-03-04 20:04+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -47,9 +47,9 @@ msgid ""
 "work with surgeons specialized in hair restoration and hair "
 "transplantation."
 msgstr ""
-"Fiore Health & Beauty Clinic est une clinique située à Istanbul en Turquie. "
-"Nous travaillons avec des chirurgiens spécialisés dans la restauration et la "
-"transplantation capillaire. "
+"Fiore Health & Beauty Clinic est une clinique située à Istanbul en "
+"Turquie. Nous travaillons avec des chirurgiens spécialisés dans la "
+"restauration et la transplantation capillaire. "
 
 #: app/templates/home/about.html:27
 msgid ""
@@ -151,6 +151,10 @@ msgstr "Nom"
 #: app/templates/home/contact.html:65 app/templates/includes/_contact.html:36
 msgid "Write your message"
 msgstr "Ecrivez-nous votre message"
+
+#: app/templates/home/contact.html:70 app/templates/includes/_contact.html:41
+msgid "Submit"
+msgstr "Envoyer"
 
 #: app/templates/home/experience.html:3
 msgid "Experience | Hair Transplant Turkey Istanbul"
@@ -302,12 +306,13 @@ msgid ""
 "chemicals and the repeated use of straighteners, hair dryers or African "
 "braids etc."
 msgstr ""
-"La chute de cheveux affecterait environ 42 pour cent des femmes. Les causes "
-"principales sont le stress, l’anxiété, les fluctuations hormonales, les "
-"carences alimentaires, l’hérédité, les traitements médicamenteux. Mais la"
-" perte de cheveux est surtout causée par l’agression des cheveux avec "
-"notamment l’utilisation immodérée des produits chimiques et des l’usage "
-"répété du fer à lisser, du sèche-cheveux ou les tresses africaines etc."
+"La chute de cheveux affecterait environ 42 pour cent des femmes. Les "
+"causes principales sont le stress, l’anxiété, les fluctuations "
+"hormonales, les carences alimentaires, l’hérédité, les traitements "
+"médicamenteux. Mais la perte de cheveux est surtout causée par "
+"l’agression des cheveux avec notamment l’utilisation immodérée des "
+"produits chimiques et des l’usage répété du fer à lisser, du sèche-"
+"cheveux ou les tresses africaines etc."
 
 #: app/templates/home/female-transplant.html:38
 msgid ""
@@ -347,8 +352,8 @@ msgid ""
 "and recommendations of the surgeon, you can take good steps to strengthen"
 " your hair after the operation."
 msgstr ""
-"Le taux de réussite de cette opération est de 95 pour cent, mais avec les "
-"conseils et les recommandations du chirurgien, vous pouvez prendre de "
+"Le taux de réussite de cette opération est de 95 pour cent, mais avec les"
+" conseils et les recommandations du chirurgien, vous pouvez prendre de "
 "bonnes mesures pour renforcer vos cheveux après l'opération."
 
 #: app/templates/home/female-transplant.html:51
@@ -391,11 +396,12 @@ msgid ""
 "your costs and raise expectations. Our partners' expertise expands in the"
 " areas of "
 msgstr ""
-"Nous sommes Fiore Health & Beauty Consulting. Notre mission principale est "
-"de développer une expérience globale qui révèlera votre meilleur état en "
-"vous accompagnant tout au long de votre séjour. L'histoire de Fiore a "
-"commencé en Turquie, un pays où vous pouvez réduire vos coûts et augmenter "
-"vos attentes. L'expertise de nos partenaires s'étend dans les domaines de "
+"Nous sommes Fiore Health & Beauty Consulting. Notre mission principale "
+"est de développer une expérience globale qui révèlera votre meilleur état"
+" en vous accompagnant tout au long de votre séjour. L'histoire de Fiore a"
+" commencé en Turquie, un pays où vous pouvez réduire vos coûts et "
+"augmenter vos attentes. L'expertise de nos partenaires s'étend dans les "
+"domaines de "
 
 #: app/templates/home/index.html:105
 msgid "Hair Transplantation"
@@ -650,7 +656,7 @@ msgstr "Nos offres tout compris"
 
 #: app/templates/home/packages.html:24
 msgid "Contact Us for Further Information via "
-msgstr "Contactez-nous pour plus d'informations"
+msgstr "Contactez-nous pour plus d'informations "
 
 #: app/templates/home/packages.html:24
 msgid "Section Below"
@@ -907,7 +913,7 @@ msgstr ""
 
 #: app/templates/home/transplant-methods.html:131
 msgid "Painless, Needle-Free"
-msgstr "indolore, sans aiguille"
+msgstr "Indolore, Sans aiguille"
 
 #: app/templates/home/transplant-methods.html:131
 msgid "Procedure"
@@ -983,10 +989,6 @@ msgstr "Offres"
 #: app/templates/includes/_cardlandscape.html:68
 msgid "Contact"
 msgstr "Contact"
-
-#: app/templates/includes/_contact.html:41
-msgid "Submit"
-msgstr "Envoyer"
 
 #: app/templates/includes/_experiencecard.html:13
 #: app/templates/includes/_timeline.html:94
@@ -1067,7 +1069,7 @@ msgstr "PRP"
 #: app/templates/includes/_packages.html:44
 #: app/templates/includes/_packages.html:73
 msgid "4 Star Hotel"
-msgstr "hôtel 4 étoiles"
+msgstr "Hôtel 4 étoiles"
 
 #: app/templates/includes/_packages.html:16
 #: app/templates/includes/_packages.html:45
@@ -1156,8 +1158,8 @@ msgid ""
 msgstr ""
 "Le devis proposé correspond à votre budget et vous voulez prendre un "
 "rendez-vous pour l’opération. Communiquez-nous les dates de votre "
-"disponibilité. Une fois le rendez-vous fixé, un acompte de 15 pour cent du prix "
-"total sera exigé."
+"disponibilité. Une fois le rendez-vous fixé, un acompte de 15 pour cent "
+"du prix total sera exigé."
 
 #: app/templates/includes/_timeline.html:34
 #: app/templates/includes/_timeline.html:137
