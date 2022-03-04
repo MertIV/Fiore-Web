@@ -1,20 +1,37 @@
+
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-01 21:30+0300\n"
-"PO-Revision-Date: 2022-03-04 19:37+0000\n"
+"POT-Creation-Date: 2022-03-04 23:31+0300\n"
+"PO-Revision-Date: 2022-03-04 20:04+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: French\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Language-Team: French\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Loco-Source-Locale: tr_TR\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Loco-Parser: loco_parse_po\n"
-"X-Generator: Loco https://localise.biz/"
+
+#: app/forms.py:8
+#, fuzzy
+msgid "First Name"
+msgstr "Prénom"
+
+#: app/forms.py:9
+#, fuzzy
+msgid "Last Name"
+msgstr "Nom"
+
+#: app/forms.py:10 app/templates/home/contact.html:60
+#: app/templates/includes/_contact.html:28
+msgid "Phone Number or E-mail"
+msgstr "Numéro de téléphone ou adresse mail"
+
+#: app/forms.py:11
+msgid "Message"
+msgstr "Message"
 
 #: app/templates/home/about.html:3 app/templates/home/contact.html:3
 msgid "About Us | Hair Transplant Turkey Istanbul"
@@ -27,7 +44,8 @@ msgstr "À propos de Fiore Health&Beauty "
 #: app/templates/home/about.html:20
 msgid ""
 "Fiore Health & Beauty Clinic is a clinic located in Istanbul, Turkey. We "
-"work with surgeons specialized in hair restoration and hair transplantation."
+"work with surgeons specialized in hair restoration and hair "
+"transplantation."
 msgstr ""
 "Fiore Health & Beauty Clinic est une clinique située à Istanbul en Turquie. "
 "Nous travaillons avec des chirurgiens spécialisés dans la restauration et la "
@@ -36,24 +54,25 @@ msgstr ""
 #: app/templates/home/about.html:27
 msgid ""
 "We are the best at what we do and it is all because of the incredible "
-"relationships we have built with our customers. Unlike our competitors, we "
-"invest in developing a personal relationship with each of our customers by "
-"providing them quality services and remaining available 24 hours a day, 7 "
-"days a week."
+"relationships we have built with our customers. Unlike our competitors, "
+"we invest in developing a personal relationship with each of our "
+"customers by providing them quality services and remaining available 24 "
+"hours a day, 7 days a week."
 msgstr ""
 "Nous sommes les meilleurs dans notre domaine et tout cela, grâce aux "
-"relations incroyables que nous avons nouées avec nos clients. Contrairement "
-"à nos concurrents, nous investissons dans le développement d'une relation "
-"personnelle avec chacun de nos clients en leur fournissant un service de "
-"qualité et en restant disponibles 24 heures sur 24, 7 jours sur 7.\n"
+"relations incroyables que nous avons nouées avec nos clients. "
+"Contrairement à nos concurrents, nous investissons dans le développement "
+"d'une relation personnelle avec chacun de nos clients en leur fournissant"
+" un service de qualité et en restant disponibles 24 heures sur 24, 7 "
+"jours sur 7.\n"
 
 #: app/templates/home/about.html:28
 msgid ""
-"If you want to know more, do not hesitate to contact us. We are impatient to "
-"meet you !"
+"If you want to know more, do not hesitate to contact us. We are impatient"
+" to meet you !"
 msgstr ""
-"Si vous voulez en savoir plus, n'hésitez pas à nous contacter. Nous sommes "
-"impatients de vous rencontrer !"
+"Si vous voulez en savoir plus, n'hésitez pas à nous contacter. Nous "
+"sommes impatients de vous rencontrer !"
 
 #: app/templates/home/about.html:31
 msgid "Clinics In Turkey"
@@ -61,31 +80,33 @@ msgstr "Cliniques en Turquie"
 
 #: app/templates/home/about.html:32
 msgid ""
-"Over the past decades, Turkey has made numerous investments in the medical "
-"sector thus leading to high-quality medical infrastructure and providing "
-"clinics with the latest technologies for hair implants. Reports also show "
-"that the results of transplants performed in Turkey are much more "
-"satisfactory than those performed in the West. This advance is due to the "
-"considerable experience and expertise of highly qualified surgeons."
+"Over the past decades, Turkey has made numerous investments in the "
+"medical sector thus leading to high-quality medical infrastructure and "
+"providing clinics with the latest technologies for hair implants. Reports"
+" also show that the results of transplants performed in Turkey are much "
+"more satisfactory than those performed in the West. This advance is due "
+"to the considerable experience and expertise of highly qualified "
+"surgeons."
 msgstr ""
 "Au cours des dernières décennies, la Turquie à fait de nombreux "
 "investissements dans le secteur de la médecine offrant ainsi des "
 "infrastructures médicales de haute qualité et dotant les cliniques des "
-"dernières technologies pour les implants capillaires. Les rapports montrent "
-"aussi que les résultats des greffes effectués en Turquie sont nettement plus "
-"satisfaisants que ceux réalisés en occident. L’on doit cette avancée à "
-"l’expérience considérable et l’expertise des chirurgiens hautement qualifiés."
+"dernières technologies pour les implants capillaires. Les rapports "
+"montrent aussi que les résultats des greffes effectués en Turquie sont "
+"nettement plus satisfaisants que ceux réalisés en occident. L’on doit "
+"cette avancée à l’expérience considérable et l’expertise des chirurgiens "
+"hautement qualifiés."
 
-#: app/templates/home/contact.html:19 app/templates/home/index.html:105 
-#: app/templates/home/index.html:125 app/templates/includes/_contact.html:10 
-#: app/templates/includes/_experiencecard.html:8 
-#: app/templates/includes/_timeline.html:11 
-#: app/templates/includes/_timeline.html:74 
-#: app/templates/includes/footer-about.html:45 
-#: app/templates/includes/footer.html:44 
-#: app/templates/includes/navigation-sub.html:27 
-#: app/templates/includes/navigation-sub.html:117 
-#: app/templates/includes/navigation.html:26 
+#: app/templates/home/contact.html:19 app/templates/home/index.html:105
+#: app/templates/home/index.html:125 app/templates/includes/_contact.html:10
+#: app/templates/includes/_experiencecard.html:8
+#: app/templates/includes/_timeline.html:11
+#: app/templates/includes/_timeline.html:74
+#: app/templates/includes/footer-about.html:45
+#: app/templates/includes/footer.html:44
+#: app/templates/includes/navigation-sub.html:27
+#: app/templates/includes/navigation-sub.html:117
+#: app/templates/includes/navigation.html:26
 #: app/templates/includes/navigation.html:118
 msgid "Contact Us"
 msgstr "Contactez-nous"
@@ -94,27 +115,40 @@ msgstr "Contactez-nous"
 msgid "We are on your reach 7 days 24 hours. Contact Us however you like! "
 msgstr "Nous sommes joignable 7/24. Contactez-nous comme bon vous semble !"
 
-#: app/templates/home/contact.html:27 app/templates/includes/_contact.html:11
-msgid ""
-"If you have questions dont hesitate to ask! You can just leave contact if "
-"you want us to reach."
-msgstr ""
-"Si vous avez des questions n'hésitez pas à nous écrire ! Vous pouvez tout "
-"simplement nous laisser un message si vous voulez que nous vous contactions."
+#: app/templates/home/contact.html:26
+msgid "Text us from Whatsapp!"
+msgstr "Ecrivez-nous sur Whatsapp !"
 
-#: app/templates/home/contact.html:33 app/templates/includes/_contact.html:18
+#: app/templates/home/contact.html:31
+msgid "DM us from Instagram!"
+msgstr "Envoyez-nous un Message Direct sur Instagram !"
+
+#: app/templates/home/contact.html:36
+msgid "Chat with us at Facebook!"
+msgstr "Ecrivez-nous sur Facebook !"
+
+#: app/templates/home/contact.html:41
+msgid "Call Us Whenever You Like!"
+msgstr "Appelez-nous quand vous le voulez !"
+
+#: app/templates/home/contact.html:46 app/templates/includes/_contact.html:11
+msgid ""
+"If you have questions dont hesitate to ask! You can just leave contact if"
+" you want us to reach."
+msgstr ""
+"Si vous avez des questions n'hésitez pas à nous écrire ! Vous pouvez tout"
+" simplement nous laisser un message si vous voulez que nous vous "
+"contactions."
+
+#: app/templates/home/contact.html:52 app/templates/includes/_contact.html:18
 msgid "First name"
 msgstr "Prénom"
 
-#: app/templates/home/contact.html:36 app/templates/includes/_contact.html:23
+#: app/templates/home/contact.html:55 app/templates/includes/_contact.html:23
 msgid "Last name"
 msgstr "Nom"
 
-#: app/templates/home/contact.html:41 app/templates/includes/_contact.html:28
-msgid "Phone Number or E-mail"
-msgstr "Numéro de téléphone ou adresse mail"
-
-#: app/templates/home/contact.html:46 app/templates/includes/_contact.html:36
+#: app/templates/home/contact.html:65 app/templates/includes/_contact.html:36
 msgid "Write your message"
 msgstr "Ecrivez-nous votre message"
 
@@ -122,36 +156,36 @@ msgstr "Ecrivez-nous votre message"
 msgid "Experience | Hair Transplant Turkey Istanbul"
 msgstr "Expérience | Greffe de Cheveux Turquie Istanbul"
 
-#: app/templates/home/experience.html:21 app/templates/home/index.html:154 
-#: app/templates/home/index.html:172 
-#: app/templates/includes/_cardlandscape.html:31 
-#: app/templates/includes/footer-about.html:51 
-#: app/templates/includes/footer.html:50 
-#: app/templates/includes/navigation-sub.html:135 
+#: app/templates/home/experience.html:21 app/templates/home/index.html:154
+#: app/templates/home/index.html:172
+#: app/templates/includes/_cardlandscape.html:31
+#: app/templates/includes/footer-about.html:51
+#: app/templates/includes/footer.html:50
+#: app/templates/includes/navigation-sub.html:135
 #: app/templates/includes/navigation.html:137
 msgid "Experience"
 msgstr "Expérience"
 
-#: app/templates/home/experience.html:22 
-#: app/templates/home/eyebrow-transplant.html:20 
-#: app/templates/home/facial-transplant.html:20 
-#: app/templates/home/male-transplant.html:20 
+#: app/templates/home/experience.html:22
+#: app/templates/home/eyebrow-transplant.html:20
+#: app/templates/home/facial-transplant.html:20
+#: app/templates/home/male-transplant.html:20
 #: app/templates/home/transplant-methods.html:20
 msgid ""
-"Different operations are performed depending on the needs of the patients "
-"and the type of hair."
+"Different operations are performed depending on the needs of the patients"
+" and the type of hair."
 msgstr ""
-"Différentes opérations sont réalisées en fonction des besoins des patients "
-"et du type de cheveux."
+"Différentes opérations sont réalisées en fonction des besoins des "
+"patients et du type de cheveux."
 
 #: app/templates/home/eyebrow-transplant.html:3
 msgid "Eyebrow Transplant | Hair Transplant Turkey Istanbul"
 msgstr "Greffe de Sourcils | Greffe de Cheveux Turquie Istanbul"
 
-#: app/templates/home/eyebrow-transplant.html:19 
-#: app/templates/includes/footer-about.html:36 
-#: app/templates/includes/footer.html:35 
-#: app/templates/includes/navigation-sub.html:72 
+#: app/templates/home/eyebrow-transplant.html:19
+#: app/templates/includes/footer-about.html:36
+#: app/templates/includes/footer.html:35
+#: app/templates/includes/navigation-sub.html:72
 #: app/templates/includes/navigation.html:71
 msgid "Eyebrow Transplant"
 msgstr "Greffe de sourcils"
@@ -164,27 +198,27 @@ msgstr "Greffe de sourcils"
 msgid ""
 "Eyebrow transplantation follows the same process as hair transplantation "
 "with the FUE method including local anesthesia in the donor areas. This "
-"operation consists of taking grafts from the back area of your head, at the "
-"level of the neck. Then, the surgeon draws the outline of the eyebrows in "
-"order to delimit the areas that will be filled."
+"operation consists of taking grafts from the back area of your head, at "
+"the level of the neck. Then, the surgeon draws the outline of the "
+"eyebrows in order to delimit the areas that will be filled."
 msgstr ""
-"La greffe de sourcils suit le même procédé que la greffe de cheveux avec une "
-"anesthésie locale dans les zones concernées. Cette opération consiste à "
-"prélever des greffons dans la zone arrière de votre tête, au niveau de la "
-"nuque. Ensuite, le chirurgien dessine le contour des sourcils afin de "
-"délimiter les zones qui seront garnies. "
+"La greffe de sourcils suit le même procédé que la greffe de cheveux avec "
+"une anesthésie locale dans les zones concernées. Cette opération consiste"
+" à prélever des greffons dans la zone arrière de votre tête, au niveau de"
+" la nuque. Ensuite, le chirurgien dessine le contour des sourcils afin de"
+" délimiter les zones qui seront garnies. "
 
 #: app/templates/home/eyebrow-transplant.html:45
 msgid ""
-"This intervention is the shortest of the capillary operations having fewer "
-"follicles to extract and re-implant. It lasts approximately between 1h30 and "
-"3 hour."
+"This intervention is the shortest of the capillary operations having "
+"fewer follicles to extract and re-implant. It lasts approximately between"
+" 1h30 and 3 hour."
 msgstr ""
-"Cette intervention est la plus courte des opérations capillaires ayant moins "
-"de follicu à extraire et à réimplanter. Elle dure approximativement entre "
-"1h30 et 3h."
+"Cette intervention est la plus courte des opérations capillaires ayant "
+"moins de follicu à extraire et à réimplanter. Elle dure approximativement"
+" entre 1h30 et 3h."
 
-#: app/templates/home/eyebrow-transplant.html:50 
+#: app/templates/home/eyebrow-transplant.html:50
 #: app/templates/home/facial-transplant.html:51
 msgid "Learn More About he FUE Method"
 msgstr "En savoir plus sur la méthode FUE"
@@ -193,10 +227,10 @@ msgstr "En savoir plus sur la méthode FUE"
 msgid "Facial Hair Transplant | Hair Transplant Turkey Istanbul"
 msgstr "Greffe de Barbe | Greffe de Cheveux Turquie Istanbul"
 
-#: app/templates/home/facial-transplant.html:19 
-#: app/templates/includes/footer-about.html:35 
-#: app/templates/includes/footer.html:34 
-#: app/templates/includes/navigation-sub.html:65 
+#: app/templates/home/facial-transplant.html:19
+#: app/templates/includes/footer-about.html:35
+#: app/templates/includes/footer.html:34
+#: app/templates/includes/navigation-sub.html:65
 #: app/templates/includes/navigation.html:64
 msgid "Facial Hair Transplant"
 msgstr "Greffe de Barbe"
@@ -208,52 +242,52 @@ msgstr "Greffe de Barbe"
 #: app/templates/home/facial-transplant.html:37
 msgid ""
 "The FUE (Follicular Unit Extraction) technique is used in beard "
-"transplantation. FUE method has the advantage of leaving no scars after the "
-"operation, which is why this method is recommended for procedures performed "
-"on the face."
+"transplantation. FUE method has the advantage of leaving no scars after "
+"the operation, which is why this method is recommended for procedures "
+"performed on the face."
 msgstr ""
-"La technique FUE (Follicular Unit Extraction) est utilisée dans la greffe de "
-"barbe. La méthode FUE a l’avantage de ne laisser apparaître aucune cicatrice "
-"après l’opération c’est pourquoi cette méthode est préconisée pour les "
-"interventions faites sur le visages\n"
+"La technique FUE (Follicular Unit Extraction) est utilisée dans la greffe"
+" de barbe. La méthode FUE a l’avantage de ne laisser apparaître aucune "
+"cicatrice après l’opération c’est pourquoi cette méthode est préconisée "
+"pour les interventions faites sur le visages\n"
 
 #: app/templates/home/facial-transplant.html:45
 msgid ""
-"This method consists of manually extracting the grafts from the donor area "
-"located in the back of the head so that they can then be transplanted into "
-"the desired areas of the face.  Hair follicles and beard hair have the same "
-"composition. Once the hair hairs are implanted in the beard area, there will "
-"be no difference with the other beard hairs already present. This gives a "
-"more natural result."
+"This method consists of manually extracting the grafts from the donor "
+"area located in the back of the head so that they can then be "
+"transplanted into the desired areas of the face.  Hair follicles and "
+"beard hair have the same composition. Once the hair hairs are implanted "
+"in the beard area, there will be no difference with the other beard hairs"
+" already present. This gives a more natural result."
 msgstr ""
 "Cette méthode consiste à extraire manuellement les greffons de la zone "
-"donneuse située dans la nuque pour pouvoir ensuite les transplanter dans les "
-"zones désirées du visage. Les poils de cheveux et les poils de barbes ont la "
-"même composition. Une fois les poils de cheveux implantés dans la zone de la "
-"barbe, il n’y aura aucune différence avec les autres poils de la barbe déjà "
-"présents. Ce qui donne un résultat plus naturel."
+"donneuse située dans la nuque pour pouvoir ensuite les transplanter dans "
+"les zones désirées du visage. Les poils de cheveux et les poils de barbes"
+" ont la même composition. Une fois les poils de cheveux implantés dans la"
+" zone de la barbe, il n’y aura aucune différence avec les autres poils de"
+" la barbe déjà présents. Ce qui donne un résultat plus naturel."
 
 #: app/templates/home/female-transplant.html:3
 msgid "Female Hair Transplant | Hair Transplant Turkey Istanbul"
 msgstr "Greffe de Cheveux pour Femmes | Greffe de Cheveux Turquie Istanbul"
 
-#: app/templates/home/female-transplant.html:19 
-#: app/templates/includes/footer-about.html:34 
-#: app/templates/includes/footer.html:33 
-#: app/templates/includes/navigation-sub.html:58 
+#: app/templates/home/female-transplant.html:19
+#: app/templates/includes/footer-about.html:34
+#: app/templates/includes/footer.html:33
+#: app/templates/includes/navigation-sub.html:58
 #: app/templates/includes/navigation.html:57
 msgid "Female Hair Transplant"
 msgstr "Greffe de Cheveux pour Femmes"
 
 #: app/templates/home/female-transplant.html:20
 msgid ""
-"Unfortunately, women are not spared from alopecia (hair loss). This ultra-"
-"feminine attribute that is hair can therefore cause more than just an "
-"aesthetic complexion in women."
+"Unfortunately, women are not spared from alopecia (hair loss). This "
+"ultra-feminine attribute that is hair can therefore cause more than just "
+"an aesthetic complexion in women."
 msgstr ""
-"Les femmes ne sont malheureusement pas épargnées par l’alopécie (chute des "
-"cheveux). Cet attribut ultra-féminin peut donc causer plus qu’un complexe "
-"esthétique chez les femmes."
+"Les femmes ne sont malheureusement pas épargnées par l’alopécie (chute "
+"des cheveux). Cet attribut ultra-féminin peut donc causer plus qu’un "
+"complexe esthétique chez les femmes."
 
 #: app/templates/home/female-transplant.html:36
 msgid "Why Women Experience Hair Loss"
@@ -261,35 +295,36 @@ msgstr "Pourquoi les femmes perdent leurs cheveux"
 
 #: app/templates/home/female-transplant.html:37
 msgid ""
-" Hair loss is thought to affect around 42 percent of women. The main causes "
-"are stress, anxiety, hormonal fluctuations, nutritional deficiencies, "
-"heredity, drug treatments. But hair loss is mainly caused by the aggression "
-"of the hair with in particular the excessive use of chemicals and the "
-"repeated use of straighteners, hair dryers or African braids etc."
+" Hair loss is thought to affect around 42 percent of women. The main "
+"causes are stress, anxiety, hormonal fluctuations, nutritional "
+"deficiencies, heredity, drug treatments. But hair loss is mainly caused "
+"by the aggression of the hair with in particular the excessive use of "
+"chemicals and the repeated use of straighteners, hair dryers or African "
+"braids etc."
 msgstr ""
-"La chute de cheveux affecterait environ 42% des femmes. Les causes "
+"La chute de cheveux affecterait environ 42 pour cent des femmes. Les causes "
 "principales sont le stress, l’anxiété, les fluctuations hormonales, les "
-"carences alimentaires, l’hérédité, les traitements médicamenteux. Mais la "
-"perte de cheveux est surtout causée par l’agression des cheveux avec "
+"carences alimentaires, l’hérédité, les traitements médicamenteux. Mais la"
+" perte de cheveux est surtout causée par l’agression des cheveux avec "
 "notamment l’utilisation immodérée des produits chimiques et des l’usage "
 "répété du fer à lisser, du sèche-cheveux ou les tresses africaines etc."
 
 #: app/templates/home/female-transplant.html:38
 msgid ""
-"Nowadays, the only way to remedy the damage done is hair transplantation. "
-"The FUE method is indeed the best answer to the problem of hair loss in "
-"women. This transplantation technique is still very little known in European "
-"countries, which is pushing patients to undergo surgery in Turkey. Turkey is "
-"considerably more advanced in hair transplantation and the prices are 80 "
-"percent cheaper than in France for example."
+"Nowadays, the only way to remedy the damage done is hair transplantation."
+" The FUE method is indeed the best answer to the problem of hair loss in "
+"women. This transplantation technique is still very little known in "
+"European countries, which is pushing patients to undergo surgery in "
+"Turkey. Turkey is considerably more advanced in hair transplantation and "
+"the prices are 80 percent cheaper than in France for example."
 msgstr ""
 "De nos jours, le seul moyen de remédier aux dégâts  fait est la "
-"transplantation capillaire. La méthode FUE est en effet la meilleure réponse "
-"au problème de chute de cheveux chez les femmes. Cette technique de "
-"transplantation reste encore très méconnue dans les pays européens ce qui "
-"pousse les patients à se faire opérer en Turquie. La Turquie est "
+"transplantation capillaire. La méthode FUE est en effet la meilleure "
+"réponse au problème de chute de cheveux chez les femmes. Cette technique "
+"de transplantation reste encore très méconnue dans les pays européens ce "
+"qui pousse les patients à se faire opérer en Turquie. La Turquie est "
 "considérablement plus avancée dans la transplantation des cheveux et les "
-"prix sont 80% moins chers qu’en France par exemple. \n"
+"prix sont 80 pour cent moins chers qu’en France par exemple. \n"
 
 #: app/templates/home/female-transplant.html:46
 msgid "Operation"
@@ -301,19 +336,20 @@ msgid ""
 "depending on the extent of the area to be transplanted, the surgeon may "
 "refrain from shaving the patients hair."
 msgstr ""
-"La transplantation capillaire est d’un point de vue technique identique à "
-"celle opérer aux hommes. Toutefois, en fonction de l’étendu de la zone à "
-"greffer, le chirurgien peut s'abstenir de raser le chevelu de la patiente. "
+"La transplantation capillaire est d’un point de vue technique identique à"
+" celle opérer aux hommes. Toutefois, en fonction de l’étendu de la zone à"
+" greffer, le chirurgien peut s'abstenir de raser le chevelu de la "
+"patiente. "
 
 #: app/templates/home/female-transplant.html:48
 msgid ""
-"The success rate for this operation is 95 percent, but with the advice and "
-"recommendations of the surgeon, you can take good steps to strengthen your "
-"hair after the operation."
+"The success rate for this operation is 95 percent, but with the advice "
+"and recommendations of the surgeon, you can take good steps to strengthen"
+" your hair after the operation."
 msgstr ""
-"Le taux de réussite de cette opération est de 95 %, mais avec les conseils "
-"et les recommandations du chirurgien, vous pouvez prendre de bonnes mesures "
-"pour renforcer vos cheveux après l'opération."
+"Le taux de réussite de cette opération est de 95 pour cent, mais avec les "
+"conseils et les recommandations du chirurgien, vous pouvez prendre de "
+"bonnes mesures pour renforcer vos cheveux après l'opération."
 
 #: app/templates/home/female-transplant.html:51
 msgid "See Transplantation Methods"
@@ -329,19 +365,19 @@ msgstr "FİORE c'est"
 
 #: app/templates/home/index.html:79
 msgid "Successful Results"
-msgstr "Résultats réussis"
+msgstr "des opérations réussis"
 
 #: app/templates/home/index.html:80
 msgid "Satisfied Costumers"
-msgstr "Clients satisfaits"
+msgstr "des clients satisfaits"
 
 #: app/templates/home/index.html:81
 msgid "Pleasant Stay"
-msgstr "Agréable séjour"
+msgstr "un agréable séjour"
 
 #: app/templates/home/index.html:82 app/templates/home/index.html:261
 msgid "Quality Service"
-msgstr "Service de qualité"
+msgstr "un service de qualité"
 
 #: app/templates/home/index.html:104
 msgid "Who Are We?"
@@ -349,17 +385,17 @@ msgstr "Qui sommes-nous ? "
 
 #: app/templates/home/index.html:105
 msgid ""
-"We are Fiore Health & Beauty Consulting. Our main mission is to develop a "
-"whole experience that reveals your best state with the ease of a helping "
-"hand. Fiore's story started in Turkey, a country where you can lower your "
-"costs and raise expectations. Our partners' expertise expands in the areas "
-"of "
+"We are Fiore Health & Beauty Consulting. Our main mission is to develop a"
+" whole experience that reveals your best state with the ease of a helping"
+" hand. Fiore's story started in Turkey, a country where you can lower "
+"your costs and raise expectations. Our partners' expertise expands in the"
+" areas of "
 msgstr ""
 "Nous sommes Fiore Health & Beauty Consulting. Notre mission principale est "
 "de développer une expérience globale qui révèlera votre meilleur état en "
 "vous accompagnant tout au long de votre séjour. L'histoire de Fiore a "
 "commencé en Turquie, un pays où vous pouvez réduire vos coûts et augmenter "
-"vos attentes. L'expertise de nos partenaires s'étend dans les domaines de"
+"vos attentes. L'expertise de nos partenaires s'étend dans les domaines de "
 
 #: app/templates/home/index.html:105
 msgid "Hair Transplantation"
@@ -377,7 +413,7 @@ msgstr "Tout inclus"
 msgid "Hair Transplantation experience in"
 msgstr "Expérience de greffe de cheveux en"
 
-#: app/templates/home/index.html:105
+#: app/templates/home/index.html:105 app/templates/includes/_barchart.html:11
 msgid "Turkey"
 msgstr "Turquie"
 
@@ -396,8 +432,8 @@ msgstr "Transplantation de Cheveux Istanbul"
 #: app/templates/home/index.html:122
 msgid "Turkey is one of the best destinations for a hair transplant."
 msgstr ""
-"La Turquie est l'une des meilleures destinations pour se faire une greffe de "
-"cheveux."
+"La Turquie est l'une des meilleures destinations pour se faire une greffe"
+" de cheveux."
 
 #: app/templates/home/index.html:135
 msgid "Why Turkey?"
@@ -405,28 +441,28 @@ msgstr "Pourquoi la Turquie"
 
 #: app/templates/home/index.html:136
 msgid ""
-"Indeed, the Istanbul-based clinics offer excellent quality surgical services "
-"at affordable prices, unlike the extremely high prices in various European "
-"countries. The prices of hair transplant operations in Istanbul are 60 "
-"percent or even 80 percent cheaper than in Europe."
+"Indeed, the Istanbul-based clinics offer excellent quality surgical "
+"services at affordable prices, unlike the extremely high prices in "
+"various European countries. The prices of hair transplant operations in "
+"Istanbul are 60 percent or even 80 percent cheaper than in Europe."
 msgstr ""
 "Les cliniques situées à Istanbul offrent des services chirurgicaux "
 "d’excellente qualité à des prix abordables, contrairement aux prix "
-"extrêmement surélevés dans les divers pays européen. Le prix des opérations "
-"de greffe de cheveux à Istanbul est donc 60 voire 80  moins cher qu’en "
-"Europe.\n"
+"extrêmement surélevés dans les divers pays européen. Le prix des "
+"opérations de greffe de cheveux à Istanbul est donc 60 voire 80  moins "
+"cher qu’en Europe.\n"
 
 #: app/templates/home/index.html:137
 msgid "turkey"
 msgstr "turquie"
 
-#: app/templates/home/index.html:139 
-#: app/templates/includes/_cardlandscape.html:20 
-#: app/templates/includes/_cardlandscape.html:38 
-#: app/templates/includes/_cardlandscape.html:57 
-#: app/templates/includes/_cardlandscape.html:77 
-#: app/templates/includes/_packages.html:26 
-#: app/templates/includes/_packages.html:55 
+#: app/templates/home/index.html:139
+#: app/templates/includes/_cardlandscape.html:20
+#: app/templates/includes/_cardlandscape.html:38
+#: app/templates/includes/_cardlandscape.html:57
+#: app/templates/includes/_cardlandscape.html:77
+#: app/templates/includes/_packages.html:26
+#: app/templates/includes/_packages.html:55
 #: app/templates/includes/_packages.html:84
 msgid "Learn More"
 msgstr "En savoir plus"
@@ -493,11 +529,11 @@ msgstr "Assistance 7/24"
 
 #: app/templates/home/index.html:269
 msgid ""
-"Our assistance is at your disposal. Do not hesitate to get in touch with our "
-"team."
+"Our assistance is at your disposal. Do not hesitate to get in touch with "
+"our team."
 msgstr ""
-"Notre assistance est à votre disposition. N'hésitez pas à prendre contact "
-"avec notre équipe."
+"Notre assistance est à votre disposition. N'hésitez pas à prendre contact"
+" avec notre équipe."
 
 #: app/templates/home/index.html:275
 msgid "Excellent Value"
@@ -531,67 +567,78 @@ msgstr "après traitement"
 msgid "Male Hair Transplant | Hair Transplant Turkey Istanbul"
 msgstr "Greffe de Cheveux Homme | Greffe de Cheveux Turquie Istanbul"
 
-#: app/templates/home/male-transplant.html:19 
-#: app/templates/includes/footer-about.html:33 
-#: app/templates/includes/footer.html:32 
-#: app/templates/includes/navigation-sub.html:50 
+#: app/templates/home/male-transplant.html:19
+#: app/templates/includes/footer-about.html:33
+#: app/templates/includes/footer.html:32
+#: app/templates/includes/navigation-sub.html:50
 #: app/templates/includes/navigation.html:49
 msgid "Male Hair Transplant"
 msgstr "Transplantation de cheveux pour hommes"
 
-#: app/templates/home/male-transplant.html:36 
-#: app/templates/home/transplant-methods.html:44 
-#: app/templates/home/transplant-methods.html:80 
-#: app/templates/includes/_tab.html:16 app/templates/includes/_tab.html:71
-msgid "FUE"
-msgstr "FUE"
+#: app/templates/home/male-transplant.html:36
+msgid "Hair Transplantation is Your Solution"
+msgstr "Transplantation Capillaire"
 
-#: app/templates/home/male-transplant.html:37 
-#: app/templates/home/transplant-methods.html:81 
-#: app/templates/includes/_tab.html:72
+#: app/templates/home/male-transplant.html:37
+msgid "Baldness"
+msgstr "Calvitie"
+
+#: app/templates/home/male-transplant.html:37
 msgid ""
-"The FUE method is known as the most advanced hair transplant technique that "
-"guarantees perfectly natural results. This hair transplant technique "
-"consists in extracting the follicular units from the donor area and then "
-"reimplanting them in the passages opened by incision beforehand in the bald "
-"areas of the head."
+"is a common phenomenon among men. About one in three men suffer from hair"
+" loss before the age of 30. It is possible and advisable to treat "
+"alopecia (hair loss) via medication treatment. However, the only lasting "
+"and effective option to regain the density of your own hair very quickly "
+"is"
 msgstr ""
-"La méthode FUE est connue comme la technique de greffe de cheveux la plus "
-"avancée garantissant des résultats parfaitement naturels.  Cette technique "
-"de greffe de cheveux consiste à extraire les unités folliculaires de la zone "
-"donneuse pour ensuite les réimplanter dans les voies ouvertes par incision "
-"au préalable dans les zones dégarnies de la tête. "
+"est un phénomène courant chez les hommes. Environ un homme sur trois "
+"souffre d’une perte de cheveux avant l’âge de 30 ans. Il est possible et "
+"conseillé de traiter l’alopécie (chute de cheveux) via un traitement "
+"médicamenteux. \n"
+"Toutefois, la seule option durable et efficace  pour retrouver très "
+"rapidement la densité de vos propres cheveux, est\n"
 
-#: app/templates/home/male-transplant.html:45 
-#: app/templates/home/transplant-methods.html:53 
-#: app/templates/home/transplant-methods.html:89 
-#: app/templates/includes/_tab.html:29 app/templates/includes/_tab.html:84
-msgid "Sapphire FUE"
-msgstr "Saphir FUE"
+#: app/templates/home/male-transplant.html:37
+#, fuzzy
+msgid "hair transplantation."
+msgstr "Transplantation Capillaire"
 
-#: app/templates/home/male-transplant.html:46 
-#: app/templates/home/transplant-methods.html:90 
-#: app/templates/includes/_tab.html:85
+#: app/templates/home/male-transplant.html:43
 msgid ""
-"In hair transplantation, genuine sapphire blades are used instead of the "
-"thin metal blade used in the classic FUE method when incising the channels "
-"in the receiving area."
+"This minimally invasive surgery consists of minimizing the visual signs "
+"of long-term hair loss. The hair transplant operation thus offers "
+"definitive results and achieves a natural distribution of your real hair."
 msgstr ""
-"Lors de la greffe de cheveux, des lames de saphir authentiques sont "
-"utilisées à la place de la fine lame métallique utilisée dans la méthode FUE "
-"classique lors de l’incision des canaux de la zone receveuse."
+"Cette chirurgie peu invasive consiste à minimiser les signes visuels "
+"d’une perte de cheveux. L’opération de greffe de cheveux offre ainsi des "
+"résultats définitifs et permet d’obtenir une répartition naturelle de vos"
+" vrais cheveux. "
 
-#: app/templates/home/male-transplant.html:47 
-#: app/templates/home/transplant-methods.html:91 
-#: app/templates/includes/_tab.html:86
+#: app/templates/home/male-transplant.html:46
+msgid "There Are Different Ways"
+msgstr "Il existe différentes manières"
+
+#: app/templates/home/male-transplant.html:47
 msgid ""
-"This innovation of the FUE method minimizes scab formation and helps speed "
-"up the healing process by opening up smaller pathways where the grafts will "
-"be implanted."
+"The choice of the operating method depends on the diagnosis of the "
+"surgeon during which he will evaluate the density of the existing hair "
+"which will be extracted and transplanted in the area to be corrected. "
+"However, you can state your preference regarding the method of "
+"transplantation."
 msgstr ""
-"Cette innovation de la méthode FUE minimise la formation de croûtes et aide "
-"à accélérer le processus de guérison en ouvrant de plus petites voies où "
-"seront implanté les greffons.\n"
+"Le choix de la méthode opératoire dépend du diagnostic du chirurgien "
+"durant lequel il évaluera la densité des cheveux existants qui seront "
+"extraits et transplantés dans la zone à corriger. Vous pouvez toutefois "
+"faire part de votre préférence en ce qui concerne la méthode de "
+"transplantation."
+
+#: app/templates/home/male-transplant.html:55
+msgid "Contact Us for Initial Free Online Consultation"
+msgstr "Contactez-nous pour une première consultation en ligne gratuite"
+
+#: app/templates/home/male-transplant.html:59
+msgid "Click to Learn More About Transplant Methods"
+msgstr "Cliquez pour en savoir plus sur les méthodes de transplantation"
 
 #: app/templates/home/packages.html:3
 msgid "Packages | Hair Transplant Packages Turkey Istanbul Fiore Consulting"
@@ -627,95 +674,102 @@ msgstr "Facebook"
 
 #: app/templates/home/prp-treatment.html:3
 msgid "PRP Treatment | Hair Transplant Turkey Istanbul"
-msgstr "Traitement PRP  | Transplantation Capillaire Turquie Istanbul "
+msgstr "Traitement PRP  | Transplantation Capillaire Turquie Istanbul"
 
-#: app/templates/home/prp-treatment.html:17 
-#: app/templates/includes/navigation-sub.html:86 
+#: app/templates/home/prp-treatment.html:17
+#: app/templates/includes/navigation-sub.html:86
 #: app/templates/includes/navigation.html:85
 msgid "PRP Treatment"
 msgstr "Traitement PRP"
 
 #: app/templates/home/prp-treatment.html:33
+msgid "You Have Your Own Cure"
+msgstr "Vous avez votre propre remède"
+
+#: app/templates/home/prp-treatment.html:35
 msgid "PRP (Platelet Rich in Plasma) treatment "
 msgstr "Traitement PRP (Plaquette Riche en Plasma) "
 
-#: app/templates/home/prp-treatment.html:33
+#: app/templates/home/prp-treatment.html:35
 msgid ""
 "is a non-invasive therapeutic method that slows down hair loss and "
-"stimulates regrowth. This treatment consists of injecting blood platelets "
-"into the desired areas, particularly the scalp, in order to regenerate and "
-"nourish the cells. PRP treatment is prescribed for the following situations:"
+"stimulates regrowth. This treatment consists of injecting blood platelets"
+" into the desired areas, particularly the scalp, in order to regenerate "
+"and nourish the cells. PRP treatment is prescribed for the following "
+"situations:"
 msgstr ""
-"est une méthode thérapeutique non-invasive qui permet de ralentir la chute "
-"des cheveux et de stimuler la repousse. Ce traitement consiste à injecter "
-"les plaquettes de sang dans les zones souhaitées notamment dans le cuir "
-"chevelu afin de régénérer et nourrir les cellules. Le traitement PRP est "
-"prescrit pour les situations suivantes :\n"
+"est une méthode thérapeutique non-invasive qui permet de ralentir la "
+"chute des cheveux et de stimuler la repousse. Ce traitement consiste à "
+"injecter les plaquettes de sang dans les zones souhaitées notamment dans "
+"le cuir chevelu afin de régénérer et nourrir les cellules. Le traitement "
+"PRP est prescrit pour les situations suivantes :\n"
 
-#: app/templates/home/prp-treatment.html:37
+#: app/templates/home/prp-treatment.html:39
 msgid "Hair Loss"
 msgstr "Perte de cheveux"
 
-#: app/templates/home/prp-treatment.html:42
+#: app/templates/home/prp-treatment.html:44
 msgid "Slowing of Hair Growth"
 msgstr "Ralentissement de la pousse des cheveux"
 
-#: app/templates/home/prp-treatment.html:47
+#: app/templates/home/prp-treatment.html:49
 msgid "After a Hair Transplant"
 msgstr "Après une greffe de cheveux"
 
-#: app/templates/home/prp-treatment.html:52 
-#: app/templates/home/prp-treatment.html:58
+#: app/templates/home/prp-treatment.html:59
+#: app/templates/home/prp-treatment.html:60
 msgid "The "
-msgstr "Le"
+msgstr "Le "
 
-#: app/templates/home/prp-treatment.html:52
+#: app/templates/home/prp-treatment.html:59
 msgid "PRP treatment done after hair transplantation "
-msgstr "Traitement PRP effectué après la greffe de cheveux"
+msgstr "Traitement PRP effectué après la greffe de cheveux "
 
-#: app/templates/home/prp-treatment.html:52
+#: app/templates/home/prp-treatment.html:59
 msgid ""
 "helps to accelerate the healing process and generate hair regrowth from "
 "donor areas and corrected areas. This procedure guarantees satisfactory "
 "results after the operation."
 msgstr ""
-"permet d’accélérer le processus de cicatrisation et de générer la repousse "
-"des cheveux des zones donneuses et des zones corrigées. Cette procédure "
-"permet de garantir des résultats satisfaisants après l’opération."
+"permet d’accélérer le processus de cicatrisation et de générer la "
+"repousse des cheveux des zones donneuses et des zones corrigées. Cette "
+"procédure permet de garantir des résultats satisfaisants après "
+"l’opération."
 
-#: app/templates/home/prp-treatment.html:58
+#: app/templates/home/prp-treatment.html:60
 msgid "PRP treatment as hair care "
-msgstr "Le traitement PRP comme soin capillaire"
+msgstr "Traitement PRP comme soin capillaire "
 
-#: app/templates/home/prp-treatment.html:58
+#: app/templates/home/prp-treatment.html:60
 msgid ""
-"helps to give a shinier, silkier and thicker appearance to the hair from the "
-"first session. After the second session, there is a considerable reduction "
-"in hair loss. It is after the third session that we notice hair regrowth."
+"helps to give a shinier, silkier and thicker appearance to the hair from "
+"the first session. After the second session, there is a considerable "
+"reduction in hair loss. It is after the third session that we notice hair"
+" regrowth."
 msgstr ""
-"contribue à donner un aspect plus brillant, soyeux et plus épais au cheveux "
-"dès la première séance. Après la deuxième séance, l’on constate une "
-"diminution considérable de chute des cheveux. C’est après la troisième "
-"séance que l’on remarque une repousse des cheveux.\n"
+"contribue à donner un aspect plus brillant, soyeux et plus épais au "
+"cheveux dès la première séance. Après la deuxième séance, l’on constate "
+"une diminution considérable de chute des cheveux. C’est après la "
+"troisième séance que l’on remarque une repousse des cheveux.\n"
 
-#: app/templates/home/prp-treatment.html:63
+#: app/templates/home/prp-treatment.html:65
 msgid "Treatment Process"
-msgstr "processus du traitement"
+msgstr "Processus du traitement"
 
-#: app/templates/home/prp-treatment.html:64
+#: app/templates/home/prp-treatment.html:66
 msgid ""
-"The treatment begins with a blood sample. 10mL of blood is drawn and then "
-"placed in a centrifuge for 5 minutes to separate the blood components (red "
-"blood cells, white blood cells and platelets). After the separation of the "
-"components, the platelet-rich plasmas are extracted and finally injected "
-"into the desired areas. The entire operation is painless."
+"The treatment begins with a blood sample. 10mL of blood is drawn and then"
+" placed in a centrifuge for 5 minutes to separate the blood components "
+"(red blood cells, white blood cells and platelets). After the separation "
+"of the components, the platelet-rich plasmas are extracted and finally "
+"injected into the desired areas. The entire operation is painless."
 msgstr ""
-"Le traitement commence par une prise de sang. 10mL de sang est prélevés puis "
-"placés dans une centrifugeuse pendant 5 minutes afin de séparer les "
-"composants sanguins (globules rouges, globules blancs et les plaquettes). "
-"Après la séparation des composants, l’on extrait les plasmas riche en "
-"plaquettes pour finalement venir les injecter dans les zones souhaitées. La "
-"totalité de l’opération est indolore. "
+"Le traitement commence par une prise de sang. 10mL de sang est prélevés "
+"puis placés dans une centrifugeuse pendant 5 minutes afin de séparer les "
+"composants sanguins (globules rouges, globules blancs et les plaquettes)."
+" Après la séparation des composants, l’on extrait les plasmas riche en "
+"plaquettes pour finalement venir les injecter dans les zones souhaitées. "
+"La totalité de l’opération est indolore. "
 
 #: app/templates/home/transplant-methods.html:3
 msgid "Transplantation Methods | Hair Transplant Turkey Istanbul"
@@ -733,43 +787,94 @@ msgstr "Méthodes"
 msgid "The different types of interventions"
 msgstr "Les différents types d'interventions"
 
-#: app/templates/home/transplant-methods.html:61 
-#: app/templates/home/transplant-methods.html:99 
+#: app/templates/home/transplant-methods.html:44
+#: app/templates/home/transplant-methods.html:80
+#: app/templates/includes/_tab.html:16 app/templates/includes/_tab.html:71
+msgid "FUE"
+msgstr "FUE"
+
+#: app/templates/home/transplant-methods.html:53
+#: app/templates/home/transplant-methods.html:89
+#: app/templates/includes/_tab.html:29 app/templates/includes/_tab.html:84
+msgid "Sapphire FUE"
+msgstr "Saphir FUE"
+
+#: app/templates/home/transplant-methods.html:61
+#: app/templates/home/transplant-methods.html:99
 #: app/templates/includes/_tab.html:41 app/templates/includes/_tab.html:103
 msgid "DHI"
 msgstr "DHI"
 
-#: app/templates/home/transplant-methods.html:69 
-#: app/templates/home/transplant-methods.html:110 
+#: app/templates/home/transplant-methods.html:69
+#: app/templates/home/transplant-methods.html:110
 #: app/templates/includes/_tab.html:53 app/templates/includes/_tab.html:117
 msgid "No Shave FUE"
 msgstr "FUE Sans Rasage"
 
-#: app/templates/home/transplant-methods.html:100 
+#: app/templates/home/transplant-methods.html:81
+#: app/templates/includes/_tab.html:72
+msgid ""
+"The FUE method is known as the most advanced hair transplant technique "
+"that guarantees perfectly natural results. This hair transplant technique"
+" consists in extracting the follicular units from the donor area and then"
+" reimplanting them in the passages opened by incision beforehand in the "
+"bald areas of the head."
+msgstr ""
+"La méthode FUE est connue comme la technique de greffe de cheveux la plus"
+" avancée garantissant des résultats parfaitement naturels.  Cette "
+"technique de greffe de cheveux consiste à extraire les unités "
+"folliculaires de la zone donneuse pour ensuite les réimplanter dans les "
+"voies ouvertes par incision au préalable dans les zones dégarnies de la "
+"tête. "
+
+#: app/templates/home/transplant-methods.html:90
+#: app/templates/includes/_tab.html:85
+msgid ""
+"In hair transplantation, genuine sapphire blades are used instead of the "
+"thin metal blade used in the classic FUE method when incising the "
+"channels in the receiving area."
+msgstr ""
+"Lors de la greffe de cheveux, des lames de saphir authentiques sont "
+"utilisées à la place de la fine lame métallique utilisée dans la méthode "
+"FUE classique lors de l’incision des canaux de la zone receveuse."
+
+#: app/templates/home/transplant-methods.html:91
+#: app/templates/includes/_tab.html:86
+msgid ""
+"This innovation of the FUE method minimizes scab formation and helps "
+"speed up the healing process by opening up smaller pathways where the "
+"grafts will be implanted."
+msgstr ""
+"Cette innovation de la méthode FUE minimise la formation de croûtes et "
+"aide à accélérer le processus de guérison en ouvrant de plus petites "
+"voies où seront implanté les greffons.\n"
+
+#: app/templates/home/transplant-methods.html:100
 #: app/templates/includes/_tab.html:104
 msgid ""
-"The DHI hair implant method is a more advanced non-invasive technique of the "
-"FUE method. The removal of the hair follicles and the implantation of the "
-"grafts is done one by one. The entire transplant operation is performed "
-"manually by an expert doctor."
+"The DHI hair implant method is a more advanced non-invasive technique of "
+"the FUE method. The removal of the hair follicles and the implantation of"
+" the grafts is done one by one. The entire transplant operation is "
+"performed manually by an expert doctor."
 msgstr ""
 "La méthode d’implant capillaire DHI est une technique plus avancée non-"
 "invasive de la méthode FUE. Le prélèvement des follicules pileux et "
-"l’implantation des greffons est fait un à un. L’intégralité de l’opération "
-"de la greffe est réalisée manuellement par un médecin expert.\n"
+"l’implantation des greffons est fait un à un. L’intégralité de "
+"l’opération de la greffe est réalisée manuellement par un médecin expert."
+"\n"
 
-#: app/templates/home/transplant-methods.html:101 
+#: app/templates/home/transplant-methods.html:101
 #: app/templates/includes/_tab.html:105
 msgid ""
-"The operation is performed by hand, using a DHI hair injector which allows "
-"the surgeon to control the depth, angle and direction of the hair as it is "
-"implanted."
+"The operation is performed by hand, using a DHI hair injector which "
+"allows the surgeon to control the depth, angle and direction of the hair "
+"as it is implanted."
 msgstr ""
-"L'opération est réalisée à la main, à l'aide d'un injecteur de cheveux DHI "
-"qui permet au chirurgien de contrôler la profondeur, l'angle et la direction "
-"des cheveux lors de leur implantation."
+"L'opération est réalisée à la main, à l'aide d'un injecteur de cheveux "
+"DHI qui permet au chirurgien de contrôler la profondeur, l'angle et la "
+"direction des cheveux lors de leur implantation."
 
-#: app/templates/home/transplant-methods.html:102 
+#: app/templates/home/transplant-methods.html:102
 #: app/templates/includes/_tab.html:106
 msgid ""
 "This method is therefore performed without any incision, which leaves no "
@@ -778,27 +883,27 @@ msgstr ""
 "Cette méthode est donc réalisée sans aucune incision, ne laissant aucune "
 "cicatrice ni trace, donnant un résultat naturel."
 
-#: app/templates/home/transplant-methods.html:111 
+#: app/templates/home/transplant-methods.html:111
 #: app/templates/includes/_tab.html:118
 msgid ""
-"It is quite possible to do a hair implant without shaving your hair. With "
-"the FUE no-shave method. This method is identical to the classic FUE method. "
-"It consists of extracting the follicular units and reimplanting them in the "
-"desired areas."
+"It is quite possible to do a hair implant without shaving your hair. With"
+" the FUE no-shave method. This method is identical to the classic FUE "
+"method. It consists of extracting the follicular units and reimplanting "
+"them in the desired areas."
 msgstr ""
-"Il est tout à fait possible de faire un implant capillaire sans se raser les "
-"cheveux. Avec la méthode FUE sans rasage. Cette méthode est identique à la "
-"méthode FUE classique. Elle consiste à extraire les unités folliculaires et "
-"à les réimplanter dans les zones souhaitées."
+"Il est tout à fait possible de faire un implant capillaire sans se raser "
+"les cheveux. Avec la méthode FUE sans rasage. Cette méthode est identique"
+" à la méthode FUE classique. Elle consiste à extraire les unités "
+"folliculaires et à les réimplanter dans les zones souhaitées."
 
-#: app/templates/home/transplant-methods.html:112 
+#: app/templates/home/transplant-methods.html:112
 #: app/templates/includes/_tab.html:119
 msgid ""
 "This operation is particularly carried out in order to correct weak to "
 "moderate hair loss."
 msgstr ""
-"Cette opération est notamment réalisée afin de corriger une chute de cheveux "
-"faible à modérée."
+"Cette opération est notamment réalisée afin de corriger une chute de "
+"cheveux faible à modérée."
 
 #: app/templates/home/transplant-methods.html:131
 msgid "Painless, Needle-Free"
@@ -810,45 +915,67 @@ msgstr "Procédure"
 
 #: app/templates/home/transplant-methods.html:132
 msgid ""
-"Local anesthesia is applied before the hair follicles are extracted from the "
-"donor area and implanted in the desired areas. Hair transplant procedures "
-"are now painless, needleless and do not compromise your comfort. The "
-"anesthesia administered by a needle can naturally cause discomfort to the "
-"patient because the active substance takes a few minutes to numb the scalp. "
-"Nowadays, the anesthesia can be performed painlessly using special "
-"instruments without needles. These tools deliver the anesthetic agent under "
-"the skin using the pressure spray mechanism. People who cannot stand the "
-"sight of needles and therefore hesitate to perform a hair transplant can "
-"easily undergo this operation using this painless, needle-free technique."
+"Local anesthesia is applied before the hair follicles are extracted from "
+"the donor area and implanted in the desired areas. Hair transplant "
+"procedures are now painless, needleless and do not compromise your "
+"comfort. The anesthesia administered by a needle can naturally cause "
+"discomfort to the patient because the active substance takes a few "
+"minutes to numb the scalp. Nowadays, the anesthesia can be performed "
+"painlessly using special instruments without needles. These tools deliver"
+" the anesthetic agent under the skin using the pressure spray mechanism. "
+"People who cannot stand the sight of needles and therefore hesitate to "
+"perform a hair transplant can easily undergo this operation using this "
+"painless, needle-free technique."
 msgstr ""
-"Une anesthésie locale est appliquée avant l’extraction des follicules pileux "
-"de la zone donneuse et leur implantation dans les zones souhaitées.\n"
+"Une anesthésie locale est appliquée avant l’extraction des follicules "
+"pileux de la zone donneuse et leur implantation dans les zones "
+"souhaitées.\n"
 "Les procédures de greffes de cheveux sont maintenant indolores, sans "
 "aiguille et ne compromettent pas votre confort.\n"
 "\n"
 "En effet, l’anesthésie administrée par une aiguille peut naturellement "
-"causer de l’inconfort au patient car le principe actif met quelque minute à "
-"engourdir le cuir chevelu.\n"
+"causer de l’inconfort au patient car le principe actif met quelque minute"
+" à engourdir le cuir chevelu.\n"
 "De nos jours, l'anesthésie peut être réalisée sans douleur à l’aide "
 "d'instruments spéciaux sans aiguilles. Ces outils administrent l’agent "
-"anesthésique sous la peau grâce au mécanisme de pulvérisation sous pression."
-"\n"
-"Les personnes ne supportant donc pas la vue des aiguilles et qui hésitent "
-"par conséquent à réaliser une greffe de cheveux peuvent facilement subir "
-"cette opération à l’aide de cette technique indolore et sans aiguille.\n"
+"anesthésique sous la peau grâce au mécanisme de pulvérisation sous "
+"pression.\n"
+"Les personnes ne supportant donc pas la vue des aiguilles et qui hésitent"
+" par conséquent à réaliser une greffe de cheveux peuvent facilement subir"
+" cette opération à l’aide de cette technique indolore et sans aiguille.\n"
 
-#: app/templates/includes/_cardlandscape.html:12 
-#: app/templates/includes/footer-about.html:43 
-#: app/templates/includes/footer.html:42 
-#: app/templates/includes/navigation-sub.html:105 
+#: app/templates/includes/_barchart.html:7
+msgid "Average Prices In Countries"
+msgstr "Prix Moyens Dans Les Autres Pays"
+
+#: app/templates/includes/_barchart.html:22
+msgid "France"
+msgstr "France"
+
+#: app/templates/includes/_barchart.html:33
+msgid "Spain"
+msgstr "Espagne"
+
+#: app/templates/includes/_barchart.html:44
+msgid "UAE"
+msgstr "Émirats"
+
+#: app/templates/includes/_barchart.html:55
+msgid "UK"
+msgstr "UK"
+
+#: app/templates/includes/_cardlandscape.html:12
+#: app/templates/includes/footer-about.html:43
+#: app/templates/includes/footer.html:42
+#: app/templates/includes/navigation-sub.html:105
 #: app/templates/includes/navigation.html:104
 msgid "Our Partners"
 msgstr "Nos partenaires"
 
-#: app/templates/includes/_cardlandscape.html:49 
-#: app/templates/includes/footer-about.html:52 
-#: app/templates/includes/footer.html:51 
-#: app/templates/includes/navigation-sub.html:141 
+#: app/templates/includes/_cardlandscape.html:49
+#: app/templates/includes/footer-about.html:52
+#: app/templates/includes/footer.html:51
+#: app/templates/includes/navigation-sub.html:141
 #: app/templates/includes/navigation.html:144
 msgid "Packages"
 msgstr "Offres"
@@ -857,119 +984,123 @@ msgstr "Offres"
 msgid "Contact"
 msgstr "Contact"
 
-#: app/templates/includes/_experiencecard.html:13 
+#: app/templates/includes/_contact.html:41
+msgid "Submit"
+msgstr "Envoyer"
+
+#: app/templates/includes/_experiencecard.html:13
 #: app/templates/includes/_timeline.html:94
 msgid "consultation"
 msgstr "Consultation"
 
-#: app/templates/includes/_experiencecard.html:18 
-#: app/templates/includes/_timeline.html:18 
+#: app/templates/includes/_experiencecard.html:18
+#: app/templates/includes/_timeline.html:18
 #: app/templates/includes/_timeline.html:94
 msgid "Online Free Consultation"
 msgstr "Consultation en ligne gratuite"
 
-#: app/templates/includes/_experiencecard.html:23 
+#: app/templates/includes/_experiencecard.html:23
 #: app/templates/includes/_timeline.html:119
 msgid "appointment"
 msgstr "Rendez-vous"
 
-#: app/templates/includes/_experiencecard.html:28 
-#: app/templates/includes/_timeline.html:26 
+#: app/templates/includes/_experiencecard.html:28
+#: app/templates/includes/_timeline.html:26
 #: app/templates/includes/_timeline.html:119
 msgid "Making Appointments"
 msgstr "Prise de rendez-vous"
 
-#: app/templates/includes/_experiencecard.html:33 
+#: app/templates/includes/_experiencecard.html:33
 #: app/templates/includes/_timeline.html:137
 msgid "travel"
 msgstr "voyage"
 
 #: app/templates/includes/_experiencecard.html:38
 msgid "Transport and Accommodation"
-msgstr "transfert et hébergement"
+msgstr "Transfert et hébergement"
 
-#: app/templates/includes/_experiencecard.html:43 
+#: app/templates/includes/_experiencecard.html:43
 #: app/templates/includes/_timeline.html:161
 msgid "arrival"
 msgstr "arrivée"
 
-#: app/templates/includes/_experiencecard.html:48 
-#: app/templates/includes/_timeline.html:41 
+#: app/templates/includes/_experiencecard.html:48
+#: app/templates/includes/_timeline.html:41
 #: app/templates/includes/_timeline.html:161
 msgid "Arrival at the Clinic"
 msgstr "Arrivée à la clinique"
 
-#: app/templates/includes/_experiencecard.html:53 
+#: app/templates/includes/_experiencecard.html:53
 #: app/templates/includes/_timeline.html:179
 msgid "treatment"
 msgstr "traitement"
 
-#: app/templates/includes/_experiencecard.html:58 
-#: app/templates/includes/_timeline.html:49 
+#: app/templates/includes/_experiencecard.html:58
+#: app/templates/includes/_timeline.html:49
 #: app/templates/includes/_timeline.html:179
 msgid "Post-operative Treatments"
 msgstr "Traitements post-opératoire"
 
-#: app/templates/includes/_experiencecard.html:63 
+#: app/templates/includes/_experiencecard.html:63
 #: app/templates/includes/_timeline.html:202
 msgid "return"
 msgstr "retour"
 
-#: app/templates/includes/_experiencecard.html:68 
-#: app/templates/includes/_timeline.html:56 
+#: app/templates/includes/_experiencecard.html:68
+#: app/templates/includes/_timeline.html:56
 #: app/templates/includes/_timeline.html:202
 msgid "Return"
 msgstr "Retour"
 
-#: app/templates/includes/_packages.html:13 
+#: app/templates/includes/_packages.html:13
 #: app/templates/includes/_packages.html:71
 msgid "FUE Method"
 msgstr "La méthode FUE"
 
-#: app/templates/includes/_packages.html:14 
-#: app/templates/includes/_packages.html:43 
+#: app/templates/includes/_packages.html:14
+#: app/templates/includes/_packages.html:43
 #: app/templates/includes/_packages.html:72
 msgid "PRP"
 msgstr "PRP"
 
-#: app/templates/includes/_packages.html:15 
-#: app/templates/includes/_packages.html:44 
+#: app/templates/includes/_packages.html:15
+#: app/templates/includes/_packages.html:44
 #: app/templates/includes/_packages.html:73
 msgid "4 Star Hotel"
 msgstr "hôtel 4 étoiles"
 
-#: app/templates/includes/_packages.html:16 
-#: app/templates/includes/_packages.html:45 
+#: app/templates/includes/_packages.html:16
+#: app/templates/includes/_packages.html:45
 #: app/templates/includes/_packages.html:74
 msgid "VIP Transfer"
 msgstr "Transfert VIP"
 
-#: app/templates/includes/_packages.html:17 
-#: app/templates/includes/_packages.html:46 
+#: app/templates/includes/_packages.html:17
+#: app/templates/includes/_packages.html:46
 #: app/templates/includes/_packages.html:75
 msgid "Personal Translator-Interpreter"
 msgstr "Traducteur-interprète personnel"
 
-#: app/templates/includes/_packages.html:18 
-#: app/templates/includes/_packages.html:47 
+#: app/templates/includes/_packages.html:18
+#: app/templates/includes/_packages.html:47
 #: app/templates/includes/_packages.html:76
 msgid "Medications"
 msgstr "Médicaments"
 
-#: app/templates/includes/_packages.html:19 
-#: app/templates/includes/_packages.html:48 
+#: app/templates/includes/_packages.html:19
+#: app/templates/includes/_packages.html:48
 #: app/templates/includes/_packages.html:77
 msgid "Post-Operative Care Pack"
 msgstr "Pack de soins post-opératoire"
 
-#: app/templates/includes/_packages.html:20 
-#: app/templates/includes/_packages.html:49 
+#: app/templates/includes/_packages.html:20
+#: app/templates/includes/_packages.html:49
 #: app/templates/includes/_packages.html:78
 msgid "Post-Operative Online Follow-Up"
 msgstr "Suivi médical post-opératoire"
 
-#: app/templates/includes/_packages.html:21 
-#: app/templates/includes/_packages.html:50 
+#: app/templates/includes/_packages.html:21
+#: app/templates/includes/_packages.html:50
 #: app/templates/includes/_packages.html:79
 msgid "Botox"
 msgstr "Botox"
@@ -978,12 +1109,12 @@ msgstr "Botox"
 msgid "No Shave FUE Method"
 msgstr "Méthode FUE Sans Rasage"
 
-#: app/templates/includes/_tab.html:73 app/templates/includes/_tab.html:74 
+#: app/templates/includes/_tab.html:73 app/templates/includes/_tab.html:74
 #: app/templates/includes/_tab.html:87 app/templates/includes/_tab.html:120
 msgid "  "
 msgstr ""
 
-#: app/templates/includes/_timeline.html:12 
+#: app/templates/includes/_timeline.html:12
 #: app/templates/includes/_timeline.html:76
 msgid ""
 "You have finally decided to do a hair transplant. We would like to learn "
@@ -991,150 +1122,156 @@ msgid ""
 "Contact us to receive more information about our services."
 msgstr ""
 "Vous vous êtes enfin décidé à faire une transplantation capillaire. Nous "
-"aimerions en apprendre plus sur vous afin de vous fournir des informations "
-"pertinentes. Contactez-nous pour en savoir plus sur nos services. "
+"aimerions en apprendre plus sur vous afin de vous fournir des "
+"informations pertinentes. Contactez-nous pour en savoir plus sur nos "
+"services. "
 
-#: app/templates/includes/_timeline.html:20 
+#: app/templates/includes/_timeline.html:20
 #: app/templates/includes/_timeline.html:96
 msgid ""
-"We are all unique. Not everyone shows the same type of hair loss. Already in "
-"contact with our online support, you are invited to send us photos of your "
-"hair for a first diagnosis. This first completely free consultation consists "
-"of finding out about the condition of your hair, the type of hair loss and "
-"the extent of the area to be corrected. We will share your photos with our "
-"surgeons so that they can develop an action plan to satisfy your needs and "
-"expectations."
+"We are all unique. Not everyone shows the same type of hair loss. Already"
+" in contact with our online support, you are invited to send us photos of"
+" your hair for a first diagnosis. This first completely free consultation"
+" consists of finding out about the condition of your hair, the type of "
+"hair loss and the extent of the area to be corrected. We will share your "
+"photos with our surgeons so that they can develop an action plan to "
+"satisfy your needs and expectations."
 msgstr ""
-"Nous sommes tous unique. Tout le monde ne montre pas le même type de chute "
-"de cheveux. Déjà en contact avec notre assistance en ligne, nous vous "
-"invitons à nous envoyer des photos de vos cheveux pour un premier diagnostic."
-" Cette première consultation entièrement gratuite consiste à prendre "
-"connaissance de l’état de vos cheveux, du type de chute et de l’étendue de "
-"la zone à corriger.  Nous communiquerons vos photos avec nos chirurgiens "
-"afin qu’ils élaborent un plan d’action pour répondre à vos besoins et "
-"attentes."
+"Nous sommes tous unique. Tout le monde ne montre pas le même type de "
+"chute de cheveux. Déjà en contact avec notre assistance en ligne, nous "
+"vous invitons à nous envoyer des photos de vos cheveux pour un premier "
+"diagnostic. Cette première consultation entièrement gratuite consiste à "
+"prendre connaissance de l’état de vos cheveux, du type de chute et de "
+"l’étendue de la zone à corriger.  Nous communiquerons vos photos avec nos"
+" chirurgiens afin qu’ils élaborent un plan d’action pour répondre à vos "
+"besoins et attentes."
 
-#: app/templates/includes/_timeline.html:27 
+#: app/templates/includes/_timeline.html:27
 #: app/templates/includes/_timeline.html:120
 msgid ""
 "The proposed quotation matches your budget and you want to make an "
-"appointment for the operation. Let us know the dates of your availability. "
-"Once the appointment is fixed, a deposit of 15 percent of the total price "
-"will be required."
+"appointment for the operation. Let us know the dates of your "
+"availability. Once the appointment is fixed, a deposit of 15 percent of "
+"the total price will be required."
 msgstr ""
-"Le devis proposé correspond à votre budget et vous voulez prendre un rendez-"
-"vous pour l’opération. Communiquez-nous les dates de votre disponibilité. "
-"Une fois le rendez-vous fixé, un acompte de 15% du prix total sera exigé."
+"Le devis proposé correspond à votre budget et vous voulez prendre un "
+"rendez-vous pour l’opération. Communiquez-nous les dates de votre "
+"disponibilité. Une fois le rendez-vous fixé, un acompte de 15 pour cent du prix "
+"total sera exigé."
 
-#: app/templates/includes/_timeline.html:34 
+#: app/templates/includes/_timeline.html:34
 #: app/templates/includes/_timeline.html:137
 msgid "Travel, Transport and Accommodation"
 msgstr "Voyage, Transfert et Hébergement"
 
-#: app/templates/includes/_timeline.html:36 
+#: app/templates/includes/_timeline.html:36
 #: app/templates/includes/_timeline.html:139
 msgid ""
-"You have booked your plane ticket to Istanbul. You communicate with our team "
-"the information of your flight. On arrival at Istanbul Airport, our "
-"transport agent will meet you at the exit and escort you to your hotel. Once "
-"there, you can already get in touch with your translator-interpreter for any "
-"questions and additional service requests."
+"You have booked your plane ticket to Istanbul. You communicate with our "
+"team the information of your flight. On arrival at Istanbul Airport, our "
+"transport agent will meet you at the exit and escort you to your hotel. "
+"Once there, you can already get in touch with your translator-interpreter"
+" for any questions and additional service requests."
 msgstr ""
 "Vous avez réservé votre billet d’avion en direction d’İstanbul. Vous "
-"communiquez avec notre équipe les informations de votre vol. À votre arrivée "
-"à l’aéroport d’Istanbul, notre agent de transport vous accueillera à la "
-"sortie et vous escortera jusqu’à votre hôtel. Une fois sur place, vous "
-"pouvez dores et déjà entrer en contact avec votre traducteur-interprète pour "
-"toutes questions et demande de service supplémentaires."
+"communiquez avec notre équipe les informations de votre vol. À votre "
+"arrivée à l’aéroport d’Istanbul, notre agent de transport vous "
+"accueillera à la sortie et vous escortera jusqu’à votre hôtel. Une fois "
+"sur place, vous pouvez dores et déjà entrer en contact avec votre "
+"traducteur-interprète pour toutes questions et demande de service "
+"supplémentaires."
 
-#: app/templates/includes/_timeline.html:42 
+#: app/templates/includes/_timeline.html:42
 #: app/templates/includes/_timeline.html:162
 msgid ""
-"The next day, your translator-interpreter accompanies you to the clinic. At "
-"your disposal throughout the operation, the interpreter remains at your "
-"disposal for all your questions and your immediate needs. He/she will be "
-"responsible for translating all the words spoken by the surgeon and his team."
+"The next day, your translator-interpreter accompanies you to the clinic. "
+"At your disposal throughout the operation, the interpreter remains at "
+"your disposal for all your questions and your immediate needs. He/she "
+"will be responsible for translating all the words spoken by the surgeon "
+"and his team."
 msgstr ""
-"Le lendemain, votre traducteur-interprète vous accompagne jusque-là clinique."
-" À votre disposition tout au long de l’opération, l’interprète reste à votre "
-"écoute pour toutes vos questions et vos besoins immédiats. Il sera chargé de "
-"vous traduire toutes les paroles énoncées par le chirurgien et son équipe. "
+"Le lendemain, votre traducteur-interprète vous accompagne jusque-là "
+"clinique. À votre disposition tout au long de l’opération, l’interprète "
+"reste à votre écoute pour toutes vos questions et vos besoins immédiats. "
+"Il sera chargé de vous traduire toutes les paroles énoncées par le "
+"chirurgien et son équipe. "
 
-#: app/templates/includes/_timeline.html:50 
+#: app/templates/includes/_timeline.html:50
 #: app/templates/includes/_timeline.html:180
 msgid ""
-"After the operation, you will be escorted back to the hotel. Staying at rest "
-"is strongly recommended. The next day you will be accompanied to the clinic "
-"again with the interpreter. The surgeon and his team will show you how to "
-"wash your hair after the operation. A kit containing shampoo and lotion will "
-"be provided to you in addition to the medicines to be taken after the "
-"operation. These kits are free, however, if you wish, you can purchase a "
-"hair care kit that contains shampoo, lotion, essential oil and essential "
-"vitamins to stimulate and strengthen your hair."
+"After the operation, you will be escorted back to the hotel. Staying at "
+"rest is strongly recommended. The next day you will be accompanied to the"
+" clinic again with the interpreter. The surgeon and his team will show "
+"you how to wash your hair after the operation. A kit containing shampoo "
+"and lotion will be provided to you in addition to the medicines to be "
+"taken after the operation. These kits are free, however, if you wish, you"
+" can purchase a hair care kit that contains shampoo, lotion, essential "
+"oil and essential vitamins to stimulate and strengthen your hair."
 msgstr ""
-"Après l’opération, vous serez raccompagné à l’hôtel. En effet,  rester au "
-"repos est vivement conseillé . Le lendemain vous serez de nouveau accompagné "
-"à la clinique avec l’interprète. Le chirurgien et son équipe vous montreront "
-"comment laver vos cheveux après l’opération. Un kit contenant shampoing et "
-"lotion vous sera fourni en plus des médicaments à prendre après l’opération. "
-"Ces kit-là sont gratuits, toutefois, si vous le souhaitez, vous pouvez "
-"acheter sur place un coffret de soins capillaires contenant shampoing, "
-"lotion, huile essentielles et vitamines essentielles pour stimuler et "
-"renforcer vos cheveux. "
+"Après l’opération, vous serez raccompagné à l’hôtel. En effet,  rester au"
+" repos est vivement conseillé . Le lendemain vous serez de nouveau "
+"accompagné à la clinique avec l’interprète. Le chirurgien et son équipe "
+"vous montreront comment laver vos cheveux après l’opération. Un kit "
+"contenant shampoing et lotion vous sera fourni en plus des médicaments à "
+"prendre après l’opération. Ces kit-là sont gratuits, toutefois, si vous "
+"le souhaitez, vous pouvez acheter sur place un coffret de soins "
+"capillaires contenant shampoing, lotion, huile essentielles et vitamines "
+"essentielles pour stimuler et renforcer vos cheveux. "
 
-#: app/templates/includes/_timeline.html:57 
+#: app/templates/includes/_timeline.html:57
 #: app/templates/includes/_timeline.html:203
 msgid ""
-"You will eventually be escorted back to the airport. A PCR test will be done "
-"beforehand insofar as the country of which you are a national requires one."
+"You will eventually be escorted back to the airport. A PCR test will be "
+"done beforehand insofar as the country of which you are a national "
+"requires one."
 msgstr ""
 "Vous serez finalement raccompagné à l’aéroport. Un test PCR sera fait au "
-"préalable dans la mesure où le pays dont vous êtes le ressortissant en exige "
-"un."
+"préalable dans la mesure où le pays dont vous êtes le ressortissant en "
+"exige un."
 
-#: app/templates/includes/footer-about.html:31 
-#: app/templates/includes/footer.html:30 
-#: app/templates/includes/navigation-sub.html:41 
+#: app/templates/includes/footer-about.html:31
+#: app/templates/includes/footer.html:30
+#: app/templates/includes/navigation-sub.html:41
 #: app/templates/includes/navigation.html:40
 msgid "Hair Transplant"
 msgstr "Greffe de cheveux"
 
-#: app/templates/includes/footer-about.html:37 
-#: app/templates/includes/footer.html:36 
-#: app/templates/includes/navigation-sub.html:79 
+#: app/templates/includes/footer-about.html:37
+#: app/templates/includes/footer.html:36
+#: app/templates/includes/navigation-sub.html:79
 #: app/templates/includes/navigation.html:78
 msgid "Transplant Methods"
 msgstr "Méthodes de Transplantation"
 
-#: app/templates/includes/footer-about.html:41 
-#: app/templates/includes/footer.html:40 
-#: app/templates/includes/navigation-sub.html:96 
+#: app/templates/includes/footer-about.html:41
+#: app/templates/includes/footer.html:40
+#: app/templates/includes/navigation-sub.html:96
 #: app/templates/includes/navigation.html:95
 msgid "About"
 msgstr "À propos"
 
-#: app/templates/includes/footer-about.html:44 
-#: app/templates/includes/footer.html:43 
-#: app/templates/includes/navigation-sub.html:111 
+#: app/templates/includes/footer-about.html:44
+#: app/templates/includes/footer.html:43
+#: app/templates/includes/navigation-sub.html:111
 #: app/templates/includes/navigation.html:111
 msgid "About Us"
 msgstr "À propos de nous"
 
-#: app/templates/includes/footer-about.html:49 
-#: app/templates/includes/footer.html:48 
-#: app/templates/includes/navigation-sub.html:126 
+#: app/templates/includes/footer-about.html:49
+#: app/templates/includes/footer.html:48
+#: app/templates/includes/navigation-sub.html:126
 #: app/templates/includes/navigation.html:128
 msgid "Our Services"
 msgstr "Nos services"
 
-#: app/templates/includes/footer-about.html:56 
-#: app/templates/includes/footer.html:55 
-#: app/templates/includes/navigation-sub.html:150 
+#: app/templates/includes/footer-about.html:56
+#: app/templates/includes/footer.html:55
+#: app/templates/includes/navigation-sub.html:150
 #: app/templates/includes/navigation.html:154
 msgid "FAQ"
 msgstr "FAQ"
 
-#: app/templates/layouts/base-fullscreen.html:10 
+#: app/templates/layouts/base-fullscreen.html:10
 #: app/templates/layouts/base-sub.html:10
 msgid "Fiore Health&Beauty Consulting | Hair Transplant Turkey Istanbul"
 msgstr "Fiore Health&Beauty | Greffe de Cheveux Turquie Istanbul"
@@ -1142,3 +1279,7 @@ msgstr "Fiore Health&Beauty | Greffe de Cheveux Turquie Istanbul"
 #: app/templates/layouts/base.html:10
 msgid "Fiore Health&Beauty"
 msgstr "Fiore Health&Beauty"
+
+#~ msgid "Send Message"
+#~ msgstr "Message"
+

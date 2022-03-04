@@ -8,6 +8,7 @@
 }
 
 #barchart .site-name {
+	font-size: 1.8rem;
 	font-weight: 400;
 	color: #ffffff;
 	padding: 5px 12px 5px 12px;
@@ -96,7 +97,7 @@
 }
 
 #barchart .bar-title {
-	font-size: 0.875rem;
+	font-size: 1.3rem;
 	font-weight: 600; }
 	#barchart .bar-title img {
 	  height: 100%;
