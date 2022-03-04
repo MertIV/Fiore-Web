@@ -12,14 +12,14 @@
         {% include 'includes/preloader.html' %}
 
         <!-- Hero -->
-        <section class="section-header bg-gray text-white">
+        <section class="section-header bg-gray text-white pb-lg-6 pb-sm-5 pb-4">
             <div class="container">
                <div class="row justify-content-between align-items-center">
                   <div class="col-12 col-md-7 col-lg-6 text-center text-md-left">
                         <h1 class="display-2 mb-4">{{_('Male Hair Transplant')}}</h1>
                         <p class="lead mb-4 text-muted">{{_('Different operations are performed depending on the needs of the patients and the type of hair.')}}</p>
                     </div>
-                  <div class="col-12 col-md-5 d-none d-md-block text-center"><img src="/static/assets/img/dropdown/malehair_white.svg" alt=""></div>
+                  <div class="col-12 col-md-5 d-none d-md-block text-center"><img class="fmxh-350" src="/static/assets/img/dropdown/malehair_white.svg" alt=""></div>
                </div>
             </div>
             <figure class="position-absolute bottom-0 left-0 w-100 d-none d-md-block mb-n2">
@@ -31,24 +31,35 @@
         <!-- Section -->
         <section class="section section-lg" style="padding-top: 3rem;" >
             <div class="container">
-                <div class="row justify-content-between align-items-center mb-5 mb-lg-7">
-                  <div class="col-12 col-lg-5 mb-5 mb-lg-0 order-lg-2" >
-                    <h2 class="h1">{{_('FUE')}}</h2>
-                    <p class="lead">{{_('The FUE method is known as the most advanced hair transplant technique that guarantees perfectly natural results. This hair transplant technique consists in extracting the follicular units from the donor area and then reimplanting them in the passages opened by incision beforehand in the bald areas of the head.')}}</p>
+                <div class="row justify-content-between align-items-center mb-5 mb-lg-5">
+                  <div class="col-12 col-lg-6 mb-5 mb-lg-0 order-lg-2" >
+                    <h2 class="h1">{{_('Here is Your Solution')}}</h2>
+                    <p class="lead fw-normal"><strong>{{_('Baldness')}}</strong>  {{_('is a common phenomenon among men. About one in three men suffer from hair loss before the age of 30. It is possible and advisable to treat alopecia (hair loss) via medication treatment. However, the only lasting and effective option to regain the density of your own hair very quickly is')}} <strong>{{_('hair transplantation.')}}</strong></p>
                   </div>
-                  <div class="col-12 col-lg-6 order-lg-1">
-                    <img class="organic-radius img-fluid" src="/static/assets/img/sections/about-us-1.webp" alt="Male Hair Transplant">
+                  <div class="col-12 col-lg-5 order-lg-1">
+                    <img class="organic-radius img-fluid" style="border-radius: 70% 30% 68% 32% / 33% 61% 39% 67%;" src="/static/assets/img/sections/male-transplant-1.webp" alt="Male Hair Transplant">
                   </div>
                 </div>
+                <p class="lead fw-normal mb-5">{{_('This minimally invasive surgery consists of minimizing the visual signs of long-term hair loss. The hair transplant operation thus offers definitive results and achieves a natural distribution of your real hair.')}}</p>
                 <div class="row justify-content-between align-items-center mb-5 mb-lg-7">
-                  <div class="col-lg-5 mb-5 mb-lg-0" >
-                    <h2 class="h1 d-flex align-items-center">{{_('Sapphire FUE')}}</h2>
-                    <p class="lead">{{_('In hair transplantation, genuine sapphire blades are used instead of the thin metal blade used in the classic FUE method when incising the channels in the receiving area.')}}</p>
-                    <p class="lead">{{_('This innovation of the FUE method minimizes scab formation and helps speed up the healing process by opening up smaller pathways where the grafts will be implanted.')}}</p>
+                  <div class="col-lg-6 mb-5 mb-lg-0" >
+                    <h2 class="h1 d-flex align-items-center">{{_('Different Ways')}}</h2>
+                    <p class="lead fw-normal">{{_('The choice of the operating method depends on the diagnosis of the surgeon during which he will evaluate the density of the existing hair which will be extracted and transplanted in the area to be corrected. However, you can state your preference regarding the method of transplantation.')}}</p>
                   </div>
-                  <div class="col-lg-6">
-                    <img class="organic-radius img-fluid" src="/static/assets/img/sections/about-us-1.webp" alt="Male Transplant">
+                  <div class="col-lg-5">
+                    <img class="organic-radius img-fluid" style="border-radius: 70% 30% 68% 32% / 33% 61% 39% 67%;" src="/static/assets/img/sections/male-transplant-2.webp" alt="Male Transplant">
                   </div>
+                  <div class="col-12 mt-5">
+                    <a href="{{url_for('bp.contact')}}"  class="mx-4 btn btn-primary mt-2 animate-up-2 mb-lg-0 mb-4" style="background-color:#a38004; border-color: #a38004;">
+                      <span class="fas fa-chevron-circle-right me-1"></span>
+                      {{_('Contact Us for Initial Free Online Consultation') }}
+                  </a>
+                  <a href="{{url_for('bp.transplant_methods')}}"  class="mx-4 btn btn-primary mt-2 animate-up-2 float-end" style="background-color:#a38004; border-color: #a38004;">
+                    <span class="fas fa-chevron-circle-right me-1"></span>
+                    {{_('Click to Learn More About Transplant Methods') }}
+                  </a>
+                  </div>
+
                 </div>
             </div>
         </section>
