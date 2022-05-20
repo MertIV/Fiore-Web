@@ -100,8 +100,8 @@ Steps to deploy on **Heroku**
 
 ```bash
 $ # Clone the source code:
-$ git clone https://github.com/app-generator/flask-pixel.git
-$ cd flask-pixel
+$ git clone https://github.com/MertIV/Fiore-Web.git
+$ cd Fiore-Web
 $
 $ # Check Heroku CLI is installed
 $ heroku -v
