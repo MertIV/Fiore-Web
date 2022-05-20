@@ -45,7 +45,6 @@ display: flex;
 	color:#a38004;
 	font-size: calc(1rem + 4vw) ;  
 	font-weight: 900;
-	text-shadow: -0.0075em 0.0075em 0 #f9f7f0, 0.005em 0.005em 0 #dacc9b, 0.01em 0.01em 0 #dccfa0, 0.015em 0.015em #ded1a5, 0.02em 0.02em 0 #e0d4aa, 0.025em 0.025em 0 #e2d6af, 0.03em 0.03em 0 #e3d9b4, 0.035em 0.035em 0 #e5dbb9;
 	margin-top: 19rem;
 	align-self: flex-end;
 }

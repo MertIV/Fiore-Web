@@ -16,3 +16,4 @@ app/static/assets/node_modules
 app/static/assets/yarn.lock
 app/static/assets/.temp
 messages.pot
+flags/
