@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 83d286eb08807bea64f96970ae7bf56a7089efe4
 ## Quick Start in [Docker](https://www.docker.com/)
 
 > Start the app in Docker
