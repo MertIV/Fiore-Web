@@ -68,20 +68,35 @@
         {% include 'includes/preloader.html' %}
 
         <!-- Hero -->
-        <section class="overflow-hidden" style="max-height: 80vh;">
-            {% include 'includes/_herocarousel.html' %}
+        <section class="section-header overflow-hidden pt-7 pt-lg-12 pb-9 pb-lg-12 bg-white text-white section-image" data-background="/static/assets/img/pages/form-succulent.webp" style='min-height: 94.5vh;'>
+            <div class="container">
+                <div class="row">
+                    <div class="rw-wrapper col-12">
+                        <div class="rw-sentence disp1">
+                            {{_('FIORE is All About')}}
+                            <br>
+                            <div class="rw-words rw-words-3">
+                                <div class="disp1">{{_('Successful Results')}}</div>
+                                <div class="disp1">{{_('Satisfied Costumers')}}</div>
+                                <div class="disp1">{{_('Pleasant Stay')}}</div>
+                                <div class="disp1">{{_('Quality Service')}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% include 'includes/_waves.html' %}
         </section>
 
-        <div class="section-cards py-0 position-relative bg-gray-200">
-            <div class="container z-2 my-2 mb-3">
+        <div class="section-cards py-0">
+            <div class="container z-2" style="margin-top: -18.5vh !important;">
                         {% include 'includes/_cardlandscape.html' %}
             </div>
         </div>
-        <!-- End of Hero -->
 
         <section class="section section-lg">
             <div class="container">
-                <div class="row justify-content-around align-items-center">
+                <div class="row justify-content-around align-items-center  mt-lg-7">
                     <!-- <div class="col-12 col-lg-6 mb-5 mb-lg-0" >
                         <img class="img-fluid shadow-lg" style="border-radius: 70% 30% 68% 32% / 33% 61% 39% 67%;" src="/static/assets/img/sections/index-about-us.webp" alt="About Us">
                     </div> -->

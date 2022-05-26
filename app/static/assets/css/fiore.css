@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 .datepicker {
   display: none; }
@@ -666,18 +667,18 @@ progress {
 
 
 .display-5-l  {
-  font-size: calc(1rem + 0.2vw);
-  font-weight: 600;
+  font-size: calc(0.9rem + 0.2vw);
+  font-weight: 400;
   line-height: 1.3; }
   @media (min-width: 1200px) {
     .display-5-l{
-        font-size: 1.2rem;
-        font-weight: 600;
+        font-size: 1.1rem;
+        font-weight: 400;
         line-height: 1.3; } }
   @media (min-width: 1440px) {
     .display-5-l {
-      font-size: 1.3rem;
-      font-weight: 600;
+      font-size: 1.2rem;
+      font-weight: 400;
       line-height: 1.3; } }
 
 
@@ -15627,7 +15628,7 @@ textarea.form-control-lg {
   padding-top: 0rem;
   padding-bottom: 0rem; }
   .headroom--not-top.navbar-theme-primary {
-    background-color: rgba(255, 2255, 255,1);
+    background-color: #f5f4f5;
     /* box-shadow: inset 0 0px 1px 1px rgba(254, 254, 254, 0.9), 0 20px 27px 0 rgba(0, 0, 0, 0.05); */
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px !important;
    }
@@ -18563,6 +18564,12 @@ label {
     .icon-shape.icon-lg span,
     .icon-shape.icon-lg svg {
       font-size: 3rem; }
+  .icon-shape.icon-xl {
+    width: 8rem;
+    height: 8rem; }
+    .icon-shape.icon-lg span,
+    .icon-shape.icon-lg svg {
+      font-size: 4rem; }
 
 .github-big-icon {
   position: absolute;
