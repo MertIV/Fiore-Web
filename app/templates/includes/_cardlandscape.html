@@ -3,38 +3,58 @@
    
    <!-- Topic Cards -->
    <div id="cards_landscape_wrap-2">
-    <div class="container">
+    <div class="my-4 mx-auto">
         <div class="row justify-content-center">
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 animate-up-4">
-                <a href="{{url_for('bp.our_partners')}}">                      
-                    <div class="icon icon-shape icon-xl mb-2">
-                        <span class="fas fa-regular fa-handshake"></span>
-                    </div>    
-                    <h3 class="h5" style="color:#333333;">{{_('Our Partners')}}</h3>
+                <a href="{{url_for('bp.our_partners')}}">
+                    <div class="d-flex align-items-center row">
+                        <div class="icon-block icon-blog-lg icon-lg bg-white shadow flex-shrink-0 col-4">
+                            <span class="fas fa-handshake fa-3x"></span>
+                        </div>
+                        <div class="ms-3 col-8" style="height: 6rem;">
+                        <h3 class="display-5-l my-2" style="color:#333333;">{{_('Our Partners')}}</h3>
+                        <p class="text-sm text-muted" style="color: #333333;">See our cooperations</p>
+                        </div>
+                    </div>
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 animate-up-4">
                 <a href="{{url_for('bp.experience')}}">
-                    <div class="icon icon-shape icon-xl mb-2">
-                        <span class="fas fa-globe"></span>
-                    </div>    
-                    <h3 class="h5" style="color:#333333;">{{_('Experience')}}</h3>
+                    <div class="d-flex align-items-center row">
+                        <div class="icon-block icon-blog-lg icon-lg bg-white shadow flex-shrink-0 col-4">
+                            <span class="fas fa-globe fa-3x"></span>
+                        </div>
+                        <div class="ms-3 col-8" style="height: 6rem;">
+                        <h3 class="display-5-l my-2" style="color:#333333;">{{_('Experience')}}</h3>
+                        <p class="text-sm text-muted">Learn the Fiore experience</p>
+                        </div>
+                    </div>
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 animate-up-4">
                 <a href="{{url_for('bp.packages')}}">
-                    <div class="icon icon-shape icon-xl mb-2">
-                        <span class="fas fa-regular fa-gem"></span>
-                    </div>    
-                    <h3 class="h5" style="color: #333333;">{{_('Packages')}}</h3>
+                    <div class="d-flex align-items-center row">
+                        <div class="icon-block icon-blog-lg icon-lg bg-white shadow flex-shrink-0 col-4">
+                            <span class="fas fa-gem fa-3x"></span>
+                        </div>
+                        <div class="ms-3 col-8" style="height: 6rem;">
+                        <h3 class="display-5-l my-2" style="color:#333333;">{{_('Packages')}}</h3>
+                        <p class="text-sm text-muted" style="color: #333333;">Take a look at our packages</p>
+                        </div>
+                    </div>
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 animate-up-4">
                 <a href="{{url_for('bp.contact')}}">
-                    <div class="icon icon-shape icon-xl mb-2">
-                        <span class="fas fa-phone"></span>
+                    <div class="d-flex align-items-center row">
+                        <div class="icon-block icon-blog-lg icon-lg bg-white shadow flex-shrink-0 col-4">
+                            <span class="fas fa-phone fa-3x"></span>
+                        </div>
+                        <div class="ms-3 col-8" style="height: 6rem;">
+                        <h3 class="display-5-l my-2" style="color:#333333;">{{_('Contact Us')}}</h3>
+                        <p class="text-sm text-muted" style="color: #333333;">For further information</p>
+                        </div>
                     </div>
-                    <h3 class="h5" style="color:#333333;">{{_('Contact')}}</h3>
                 </a>
             </div>
         </div>

@@ -4,8 +4,10 @@
 /*----  Main Style  ----*/
 
 #cards_landscape_wrap-2{
-    text-align: center;
+    text-align: left;
     /* background: #F7F7F7; */
+    display: flex;
+    align-items: center;
   }
 
   #cards_landscape_wrap-2 a{
@@ -30,6 +32,29 @@
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
     border-radius: 5px;
     position: relative;
+  }
+
+  #cards_landscape_wrap-2 .svg-icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: text-bottom;
+    stroke: currentColor;
+    stroke-width: 3;
+}
+
+
+  #cards_landscape_wrap-2 .icon-block {
+    width: 80px;
+    height: 80px;
+    border-radius: 0.25rem;
+    background: rgba(59, 205, 152, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b0935a;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+    opacity: 0.8;
   }
 
   #cards_landscape_wrap-2 .card-flyer .image-box .text-on {
@@ -129,3 +154,10 @@
     white-space: nowrap;
   }
 
+  #cards_landscape_wrap-2 h3{
+    font-weight: 500 !important;
+  }
+
+   #cards_landscape_wrap-2 .card-text {
+     vertical-align: middle;
+   }

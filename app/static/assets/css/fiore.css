@@ -2424,7 +2424,7 @@ textarea.form-control-lg {
   -webkit-appearance: none;
           appearance: none;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  color-adjust: exact;
   transition: background-color 0.2s ease-in-out, background-position 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
     .form-check-input {
@@ -16207,7 +16207,7 @@ textarea.form-control-lg {
   .section-cards {
     width : 100%;
     position: absolute;
-    display: flex;}
+    display: grid;}
 }
 
 
@@ -19820,3 +19820,4 @@ blockquote {
   position: absolute;     
   z-index: 1;
 }
+
