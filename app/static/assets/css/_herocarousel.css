@@ -25,7 +25,6 @@
   
   .slider_item-detail .slider_heading {
     font-weight: 500;
-    font-size: 72px;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     color: #b0935a;
@@ -89,30 +88,13 @@
   .slider_section .carousel-control-next:hover {
     background-image: url(/static/assets/img/carousel/next.png);
   }
-  
-  /* .slider_section::before {
-    content: "01/02";
-    position: absolute;
-    top: 7%;
-    left: 3%;
-    opacity: 0.6;
-    color: #fefefe;
-  }
-  
-  .slider_section::after {
-    position: absolute;
-    content: "02/03";
-    bottom: 7%;
-    left: 3%;
-    opacity: 0.6;
-    color: #fefefe;
-  } */
-  
+
   .hero_img-box img {
     width: 100%;
-    object-fit: cover
+    object-fit: cover;
+    max-height: 78vh;
   }
-  
+
   .slider_btn {
     display: inline-block;
     color: #b0935a;
@@ -153,7 +135,7 @@
 }
 
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .slider_item-detail .slider_heading {
       font-size: 56px;
   }
@@ -164,5 +146,5 @@
   .slider_item-detail .slider_heading {
       font-size: 48px;
   }
-}
+} */
   /* end slider section */

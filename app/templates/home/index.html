@@ -68,7 +68,7 @@
         {% include 'includes/preloader.html' %}
 
         <!-- Hero -->
-        <section class="overflow-hidden" style="max-height: 80vh;">
+        <section class="overflow-hidden">
             {% include 'includes/_herocarousel.html' %}
         </section>
 
@@ -98,7 +98,9 @@
         </section>
 
 
-        <section class="py-6 bg-fixed bg-cover bg-center" style="background: url(/static/assets/img/pages/home-istanbul.webp); background-repeat: no-repeat !important; background-position: top center!important; background-size: auto;">
+        <section class="py-6 bg-fixed bg-cover bg-center" style="background: url(/static/assets/img/pages/home-istanbul.webp); background-repeat: no-repeat !important; background-position: top center!important; background-size: auto; -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;">
             <div class="container py-4 text-white text-center">
               <div class="icon icon-outlined icon-lg mx-auto mb-4">
                   <img src="/static/assets/img/sections/hair_strand_w.svg" alt="">
