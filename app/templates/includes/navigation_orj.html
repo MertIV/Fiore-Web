@@ -11,8 +11,8 @@
             <span class="icon icon-sm navbar-droplogo"><img src="/static/assets/img/flags/fr.svg"></span>
             </a>
         </div>
-        <div class="container-fluid position-relative offset-lg-2">
-            <a class="navbar-brand position-relative" href="{{ url_for('bp.index') }}" style="max-width: 180px; flex: 0 0 auto; width: 17.66667%;">
+        <div class="container-lg position-relative">
+            <a class="navbar-brand position-relative col-2" href="{{ url_for('bp.index') }}">
                 <img class="navbar-brand-suki" src="/static/assets/img/brand/logo_stripless2.svg" alt="Fiore Logo">
             </a>
             <hr class="verticalLine header-top" style="margin-left: 15px;" width="2" size="50px">
@@ -34,7 +34,7 @@
                     </div>
                     
                 </div>
-                <ul class="navbar-nav navbar-nav-hover justify-content-evenly me-auto" >
+                <ul class="navbar-nav navbar-nav-hover align-items-lg-left justify-content-evenly me-auto" >
                     <li id="menu-item-1" class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle display-5-l" id="frontPagesDropdown" aria-expanded="false" data-bs-toggle="dropdown">
                             {{_('Hair Transplant')}}
@@ -89,12 +89,6 @@
                                 </div>
                             </div>
                         </div>
-                    </li>
-                    <li id="menu-item-2" class="nav-item">
-                        <a href="{{url_for('bp.dental')}}" class="nav-link display-5-l">
-                            {{_('Dental')}}
-                            <!-- <span class="fas fa-angle-down nav-link-arrow ms-1"></span> -->
-                        </a>
                     </li>
                     <li id="menu-item-2" class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle display-5-l" data-bs-toggle="dropdown" id="supportDropdown" aria-expanded="false">
@@ -156,7 +150,7 @@
                         </div>
                     </li>
                     <li id="menu-item-5" class="nav-item">
-                        <a href="{{url_for('bp.faq')}}" class="nav-link display-5-l">
+                        <a href="{{url_for('bp.faq')}}" class="nav-link dropdown-toggle display-5-l" data-bs-toggle="dropdown" id="supportDropdown" aria-expanded="false">
                             {{_('FAQ')}}
                             <!-- <span class="fas fa-angle-down nav-link-arrow ms-1"></span> -->
                         </a>

@@ -92,14 +92,14 @@
   .hero_img-box img {
     width: 100%;
     object-fit: cover;
-    max-height: 78vh;
+    max-height: 75vh;
   }
 
   .slider_btn {
     display: inline-block;
     color: #b0935a;
     border: 2px solid #b0935a;
-    padding: 8px 30px;
+    padding: 10px 20px;
     border-radius: 25px;
     margin-bottom: 25px;
   }
@@ -118,10 +118,9 @@
     .slider_item-detail {
         padding-top: 45px;
     }
-
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
@@ -131,6 +130,10 @@
   .slider_section::before,
   .slider_section::after {
       display: none;
+  }
+
+  .slider_btn {
+    padding: 0.55rem 0.75rem;
   }
 }
 
