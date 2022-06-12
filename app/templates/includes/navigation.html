@@ -12,7 +12,7 @@
             </a>
         </div>
         <div class="container-fluid position-relative offset-lg-2">
-            <a class="navbar-brand position-relative" href="{{ url_for('bp.index') }}" style="max-width: 180px; flex: 0 0 auto; width: 17.66667%;">
+            <a class="navbar-brand position-relative" href="{{ url_for('bp.index') }}" style="max-width: 180px; flex: 0 0 auto;">
                 <img class="navbar-brand-suki" src="/static/assets/img/brand/logo_stripless2.svg" alt="Fiore Logo">
             </a>
             <hr class="verticalLine header-top" style="margin-left: 15px;" width="2" size="50px">
@@ -44,7 +44,7 @@
                             <div class="col-auto px-0">
                                 <div class="list-group list-group-flush">
                                     <a href="{{url_for('bp.male_transplant')}}" class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4" style="white-space:nowrap;">
-                                        <span class="icon icon-sm navbar-droplogo"><img src="/static/assets/img/dropdown/malehair.svg"></img></span>
+                                        <span class="icon icon-sm navbar-droplogo"><img src="/static/assets/img/dropdown/malehair.svg"></span>
                                         <div class="ms-4" style="width: 80%;">
                                             <span class="d-block font-base fw-bold mb-0">{{_('Male Hair Transplant')}}
                                             </span>
@@ -52,21 +52,21 @@
                                         </div>
                                     </a>
                                     <a href="{{url_for('bp.female_transplant')}}" class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4" style="white-space:nowrap;">
-                                        <span class="icon icon-sm navbar-droplogo"><img src="/static/assets/img/dropdown/femalehair.svg"></img></span>
+                                        <span class="icon icon-sm navbar-droplogo"><img src="/static/assets/img/dropdown/femalehair.svg"></span>
                                         <div class="ms-4" style="width: 80%;">
                                             <span class="d-block font-base fw-bold mb-0">{{_('Female Hair Transplant')}}</span>
                                             <!-- <span class="small">Need help? Ask us!</span> -->
                                         </div>
                                     </a>
                                     <a href="{{url_for('bp.facial_transplant')}}" class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4" style="white-space:nowrap;">
-                                        <span class="icon icon-sm navbar-droplogo"><img src="/static/assets/img/dropdown/beard.svg"></img></span>
+                                        <span class="icon icon-sm navbar-droplogo"><img src="/static/assets/img/dropdown/beard.svg"></span>
                                         <div class="ms-4">
                                             <span class="d-block font-base fw-bold mb-0">{{_('Facial Hair Transplant')}}</span>
                                             <!-- <span class="small">Need help? Ask us!</span> -->
                                         </div>
                                     </a>
                                     <a href="{{url_for('bp.eyebrow_transplant')}}" class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4" style="white-space:nowrap;">
-                                        <span class="icon icon-sm navbar-droplogo"><img src="/static/assets/img/dropdown/eyelashes.svg"></img></span>
+                                        <span class="icon icon-sm navbar-droplogo"><img src="/static/assets/img/dropdown/eyelashes.svg"></span>
                                         <div class="ms-4">
                                             <span class="d-block font-base fw-bold mb-0">{{_('Eyebrow Transplant')}}</span>
                                             <!-- <span class="small">Need help? Ask us!</span> -->
@@ -163,7 +163,7 @@
                     </li>
                 </ul>  
             </div>
-            <div class="col-2" style="white-space: nowrap;">
+            <div class="col-2 mr-vw" style="white-space: nowrap;">
                 {% include 'includes/_cardheader.html' %}
             </div>
             <div class="d-flex align-items-center">

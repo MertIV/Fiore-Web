@@ -57,6 +57,22 @@
     opacity: 0.8;
   }
 
+  @media (max-width: 1200px) {
+    #cards_landscape_wrap-2 .icon-block {
+      width: 60px;
+      height: 60px;
+    }  
+
+    #cards_landscape_wrap-2 .icon-block span{
+      font-size: 2rem !important;
+    }
+
+    #cards_landscape_wrap-2 .smaller {
+      font-size: 0.65rem;
+    }
+  }
+
+
   #cards_landscape_wrap-2 .card-flyer .image-box .text-on {
     opacity: 1;
     margin: 1rem auto; 
@@ -161,3 +177,4 @@
    #cards_landscape_wrap-2 .card-text {
      vertical-align: middle;
    }
+

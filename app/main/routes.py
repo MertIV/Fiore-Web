@@ -306,8 +306,23 @@ def experience():
     return render_template('home/experience.html',form=form)
 
 @bp.route('/faq',defaults={'lang_code': 'en'},methods=['GET', 'POST'])
-@bp.route('/faq', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
+@bp.route('/faqu', defaults={'lang_code': 'fr'},methods=['GET', 'POST'])
 def faq():
-    return render_template('home/about.html')
+    form = ContactForm(request.form)
+    
+    if form.validate_on_submit():
+        first_name = request.form.get('first_name', '', type=str)
+        last_name =  request.form.get('last_name', '', type=str) 
+        contact =  request.form.get('phone', '', type=str) 
+        message = request.form.get('message', '', type=str)
+
+        form_json = {'First Name': str(first_name) ,
+                    'Last Name': str(last_name), 
+                    'Contact Info': str(contact),
+                    'Message': str(message)}
+
+        send_contact_form(form_json)
+        
+    return render_template('home/faq.html',form=form)
 
 

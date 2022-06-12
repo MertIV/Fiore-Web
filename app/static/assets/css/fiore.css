@@ -667,12 +667,12 @@ progress {
 
 
 .display-5-l  {
-  font-size: calc(0.9rem + 0.2vw);
+  font-size: calc(0.8rem + 0.15vw);
   font-weight: 400;
   line-height: 1.3; }
   @media (min-width: 1200px) {
     .display-5-l{
-        font-size: 1.1rem;
+        font-size: calc(0.4rem + 0.75vw);
         font-weight: 400;
         line-height: 1.3; } }
   @media (min-width: 1440px) {
@@ -4585,8 +4585,8 @@ textarea.form-control-lg {
       .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute; }
       .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 0.8rem;
-        padding-left: 0.8rem; }
+        padding-right: 0rem;
+        padding-left: 0.3rem; }
 
     .navbar-expand-lg .navbar-nav-scroll {
       overflow: visible; }
@@ -4597,6 +4597,10 @@ textarea.form-control-lg {
       display: none; } }
 
 @media (min-width: 1200px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.6rem;
+    padding-left: 0.6rem; }
+
   .navbar-expand-xl {
     flex-wrap: nowrap;
     justify-content: flex-start; }
@@ -15988,8 +15992,11 @@ textarea.form-control-lg {
   .navbar-brand img {
     max-height: 60px;
     max-width: none; }
+  @media(max-width : 1440px)  {.navbar-brand img {
+      max-height: 50px;
+      max-width: none; }}
   @media(max-width : 1200px)  {.navbar-brand img {
-      max-height: 48px;
+      max-height: 40px;
       max-width: none; }}
 
 .navbar-droplogo {
@@ -19806,7 +19813,7 @@ blockquote {
   text-shadow: -0.0075em 0.0075em 0 #f9f7f0, 0.005em 0.005em 0 #dacc9b, 0.01em 0.01em 0 #dccfa0, 0.015em 0.015em #ded1a5, 0.02em 0.02em 0 #e0d4aa, 0.025em 0.025em 0 #e2d6af, 0.03em 0.03em 0 #e3d9b4, 0.035em 0.035em 0 #e5dbb9;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
   .border-start {
     border-left: none !important;
 }
@@ -19821,3 +19828,17 @@ blockquote {
   z-index: 1;
 }
 
+.container-exp{
+  width: 65vw;
+  margin: auto;
+}
+
+
+.mr-vw{
+  margin-right: 10vw; }
+  @media (min-width: 1440px) {
+    .mr-vw {
+      margin-right: 12vw; }}
+  @media (min-width: 1600px){
+        .mr-vw {
+          margin-right: 16vw; } }
