@@ -17,7 +17,7 @@
                <div class="row justify-content-between align-items-center">
                     <div class="col-12 col-md-7 col-lg-6 text-center text-md-left">
                         <h1 class="display-2 mb-4">{{_('Dental Care')}}</h1>
-                        <p class="lead mb-4 text-muted">{{_('Different operations are performed depending on the needs of the patients')}}</p>
+                        <p class="lead mb-4 text-muted">{{_('Teeth whitening, cosmetic dentistry, implant treatments and much more. Discover all our dentistry services. Contact us now, we look forward to giving you beautiful smiles!')}}</p>
                     </div>
                     <div class="col-12 col-md-5 d-none d-md-block text-center"><span class="fas fa-tooth fa-9x"></span></div>
                </div>
@@ -30,82 +30,112 @@
         </section>
         <!-- End of Hero section -->
 
-                <!-- Section -->
+        <!-- Section -->
         <section class="section section-lg" style="padding-bottom: 1rem; padding-top: 1rem;">
             <div class="container">
             
                 <div class="row justify-content-center mb-5 mb-lg-6">
                     <h2 class="h1 mb-5 mt-3 text-center">{{_('The different types of interventions')}}</h2>
-                    <div class="col-6 col-md-3 text-center mb-4 animate-up-4">
-                        <a onclick="scrollToSmoothly(document.getElementById('fue'), 100)">                      
+                    <div class="col-6 col-md-4 text-center mb-4 animate-up-4">
+                        <a onclick="scrollToSmoothly(document.getElementById('white'), 100)">                      
                             <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle mb-4">
-                                <img src="/static/assets/img/sections/fue.svg">
+                                <img style="width:40px" src="/static/assets/img/sections/tooth-glow.svg">
                             </div>
                             <h3 class="h5">{{_('Teeth Whitening')}}</h3>
                         </a>
 
                     </div>
-                    <div class="col-6 col-md-3 text-center mb-4 animate-up-4">
-                        <a onclick="scrollToSmoothly(document.getElementById('saphire'), 100)">                             
+                    <div class="col-6 col-md-4 text-center mb-4 animate-up-4">
+                        <a onclick="scrollToSmoothly(document.getElementById('cosmetic'), 100)">                             
                       <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle mb-4">
-                        <img src="/static/assets/img/sections/saphire.svg">
+                        <img style="width:40px" src="/static/assets/img/sections/dentist-tools.svg">
                       </div>
                       <h3 class="h5">{{_('Cosmetic Dentistry')}}</h3>
                     </a>
                     </div>
-                    <div class="col-6 col-md-3 text-center animate-up-4">
-                        <a onclick="scrollToSmoothly(document.getElementById('dhi'), 100)">                            
+                    <div class="col-6 col-md-4 text-center animate-up-4">
+                        <a onclick="scrollToSmoothly(document.getElementById('implant'), 100)">                            
                       <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle mb-4">
-                        <img src="/static/assets/img/sections/dhi.svg">
+                        <img style="height:40px" src="/static/assets/img/sections/implant.svg">
                       </div>
                       <h3 class="h5">{{_('Implant Treatments')}}</h3>
                         </a>
                     </div>
-                    <div class="col-6 col-md-3 text-center animate-up-4">
+                    <!-- <div class="col-6 col-md-3 text-center animate-up-4">
                         <a onclick="scrollToSmoothly(document.getElementById('no-shave'), 100)">                            
                       <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle mb-4">
                         <img src="/static/assets/img/sections/no-shave.svg">
                       </div>
                       <h3 class="h5">{{_('Implant Treatments')}}</h3>
                         </a>
-                    </div>
+                    </div> -->
                   </div>
             </div>
         </section>
 
         <section class="section section-lg" style="padding-top: 1rem;" >
                 <div class="container">
-                    <div class="row justify-content-between align-items-center mb-5 mb-lg-7" id="fue">
-                      <div class="col-12 col-lg-5 mb-5 mb-lg-0 order-lg-2" >
+                    <div class="row justify-content-between align-items-center mb-5 mb-lg-7" id="white">
+                      <div class="col-12 col-lg-5 mb-5 mb-lg-0" >
                         <h2 class="h1">{{_('Teeth Whitening')}}</h2>
-                        <p class="lead">{{_('The FUE method is known as the most advanced hair transplant technique that guarantees perfectly natural results. This hair transplant technique consists in extracting the follicular units from the donor area and then reimplanting them in the passages opened by incision beforehand in the bald areas of the head.')}}</p>
+                        <p class="lead">{{_('Teeth lose their whiteness over the years for various reasons, here are the main causes:')}}</p>
+                        <ul class="">
+                            <li class="lead">
+                              <strong>
+                                {{_('Consumption of Cigarettes and Alcohol')}}
+                              </strong>
+                            </li>
+                            <li class="lead">
+                              <strong>
+                                {{_('Consumption of Acidic Drinks, Tea and Coffee')}}
+                              </strong>
+                            </li>
+                            <li class="lead">
+                              <strong>
+                                {{_('Irregularities in Dental and Dental Care')}}
+                              </strong>
+                            </li>
+                            <li class="lead">
+                                <strong>
+                                  {{_('Genetic Factors')}}
+                                </strong>
+                              </li>
+                          </ul>
+                          <p class="lead">{{_('Teeth whitening is one of the most popular cosmetic solutions. The treatment consists of removing unwanted staining from the enamel and dentin with a hydrogen peroxide-based tooth whitening gel. After the treatment, the whitening effect usually varies from one to two years and basically depends on the lifestyle of the person.')}}</p>
+                        </div>
+                      <div class="col-12 col-lg-6">
+                        <img class="shadow-lg" style="border-radius:70% 30% 68% 32% / 33% 61% 39% 67%;" src="/static/assets/img/pages/dental-1.webp" alt="Fue Method">
                       </div>
-                      <div class="col-12 col-lg-6 order-lg-1">
-                        <img class="img-fluid" src="/static/assets/img/sections/transplant-methods-1.png" alt="Fue Method">
-                      </div>
+                      <div clas="col-lg-12">
+                        <p class="lead">{{_('Before starting any treatment, we encourage you to make an appointment with our dentist. Dentists are without a doubt the health professional best placed to inform you about the treatment that is right for you and to give you the right advice on the subject.')}}</p>
+                        <p class="lead">{{_('To find out more, contact us and discover our prices!')}}</p>
                     </div>
-                    <div class="row justify-content-between align-items-center mb-5 mb-lg-7" id="saphire">
-                      <div class="col-lg-5 mb-5 mb-lg-0" >
+                    </div>
+                    <div class="row justify-content-between align-items-center mb-5 mb-lg-7" id="cosmetic">
+                      <div class="col-lg-5 mb-5 mb-lg-0 order-lg-2" >
                         <h2 class="h1 d-flex align-items-center">{{_('Cosmetic Dentistry')}}</h2>
-                        <p class="lead">{{_('In hair transplantation, genuine sapphire blades are used instead of the thin metal blade used in the classic FUE method when incising the channels in the receiving area.')}}</p>
-                        <p class="lead">{{_('This innovation of the FUE method minimizes scab formation and helps speed up the healing process by opening up smaller pathways where the grafts will be implanted.')}}</p>
+                        <p class="lead">{{_('The dental coating is an aesthetic, protective and durable restoration that is performed on the dental tissue without any operation.')}}</p>
+                        <p class="lead">{{_('The treatment consists of placing extremely thin sheets of porcelain on the face of the teeth. Laminated teeth represent the closest shape to the natural structure of teeth. Outstanding results are obtained thanks to this intervention.')}}</p>
                       </div>
-                      <div class="col-lg-6">
-                        <img class="img-fluid" src="/static/assets/img/sections/transplant-methods-2.png" alt="Sapphire Method">
+                      <div class="col-lg-6  order-lg-1">
+                        <img class="shadow-lg" style="border-radius:70% 30% 68% 32% / 33% 61% 39% 67%;" src="/static/assets/img/pages/dental-2.webp" alt="Sapphire Method">
                     </div>
                     </div>
-                    <div class="row justify-content-between align-items-center mb-5 mb-lg-7" id="dhi">
-                      <div class="col-12 col-lg-5 mb-5 mb-lg-0 order-lg-2">
+                    <div class="row justify-content-between align-items-center mb-3 mb-lg-4" id="implant">
+                      <div class="col-12 col-lg-5">
                         <h2 class="h1 d-flex align-items-center">{{_('Implant Treatments')}}</h2>
-                        <p class="lead">{{_('The DHI hair implant method is a more advanced non-invasive technique of the FUE method. The removal of the hair follicles and the implantation of the grafts is done one by one. The entire transplant operation is performed manually by an expert doctor.')}}</p>
-                        <p class="lead">{{_('The operation is performed by hand, using a DHI hair injector which allows the surgeon to control the depth, angle and direction of the hair as it is implanted.')}}</p>
-                        <p class="lead">{{_('This method is therefore performed without any incision, which leaves no scars or traces leaving a natural result.')}}</p>
-                      </div>
-                      <div class="col-12 col-lg-6 order-lg-1">
-                        <img class="img-fluid" src="/static/assets/img/sections/transplant-methods-3.png" alt="DHI Method">
+                        <p class="lead">{{_('Implant treatment involves renewing your smile by replacing your missing teeth. Solid foundations are laid in order to firmly place the artificial tooth implants.')}}</p>
+                        <p class="lead">{{_('The number of implants differs depending on your needs. Dental implants can be used to replace either a single tooth or your entire dentition. A tailor-made treatment is set up by our team of experts.')}}</p>
+                        <p class="lead fw-bolder">{{_('The Duration of Treatment')}}</p>
+                        <p class="lead">{{_('The treatment is carried out in two stages: ')}}</p>
                     </div>
+                      <div class="col-12 col-lg-6">
+                        <img class="shadow-lg" style="border-radius:70% 30% 68% 32% / 33% 61% 39% 67%;" src="/static/assets/img/pages/dental-3.webp" alt="DHI Method">
                     </div>
-                    <div class="row justify-content-between align-items-center mb-5 mb-lg-7" id="no-shave">
+                        <p class="lead">{{_('During your first visit, our team takes measurements and molds your implants. Then, the first intervention will take place with the laying of the bases and the implants of temporary teeth.After this intervention, we wait at least 3 months for the bases to stabilize properly.')}}</p>
+                        <p class="lead">{{_('During your second visit, our team finalizes your treatment by placing your permanent implants. After your return, we will stay in contact with you to follow the evolution of your oral health, and answer all your questions after your treatment.')}}</p>
+                    </div>
+                    <!-- <div class="row justify-content-between align-items-center mb-5 mb-lg-7" id="no-shave">
                         <div class="col-lg-5 mb-5 mb-lg-0">
                           <h2 class="h1 d-flex align-items-center">{{_('Implant Treatments')}}</h2>
                           <p class="lead">{{_('It is quite possible to do a hair implant without shaving your hair. With the FUE no-shave method. This method is identical to the classic FUE method. It consists of extracting the follicular units and reimplanting them in the desired areas.')}}</p>
@@ -114,25 +144,17 @@
                         <div class="col-lg-6">
                             <img class="img-fluid" src="/static/assets/img/sections/transplant-methods-4.png" alt="No Shave Method">
                         </div>
-                      </div>
+                      </div> -->
                   </div>
         </section>
 
         <!-- Section -->
-        <section class="section section-lg bg-gray-200">
+        <section class="section bg-gray-200">
             <figure class="position-absolute top-0 left-0 w-100 d-none d-md-block mt-n3">
                 <svg class="fill-gray-200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 43.4" style="enable-background:new 0 0 1920 43.4;" xml:space="preserve">
                    <path d="M0,23.3c0,0,405.1-43.5,697.6,0c316.5,1.5,108.9-2.6,480.4-14.1c0,0,139-12.2,458.7,14.3 c0,0,67.8,19.2,283.3-22.7v35.1H0V23.3z"></path>
                 </svg>
              </figure>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h2 class="h1 fw-light text-center mb-3"><span class="fw-bold">{{_('Painless, Needle-Free')}}</span>  {{_('Procedure')}}</h2>
-                        <p class="lead" class="text-md-left">{{_('Local anesthesia is applied before the hair follicles are extracted from the donor area and implanted in the desired areas. Hair transplant procedures are now painless, needleless and do not compromise your comfort. The anesthesia administered by a needle can naturally cause discomfort to the patient because the active substance takes a few minutes to numb the scalp. Nowadays, the anesthesia can be performed painlessly using special instruments without needles. These tools deliver the anesthetic agent under the skin using the pressure spray mechanism. People who cannot stand the sight of needles and therefore hesitate to perform a hair transplant can easily undergo this operation using this painless, needle-free technique.')}}</p>
-                    </div>
-                </div>
-                
         </section>
 
 
